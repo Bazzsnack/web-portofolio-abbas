@@ -84,8 +84,9 @@
 @media (max-width: 992px) {
   .home-content {
     grid-template-columns: 1fr;
-    text-align: center;
+    text-align: left;
     gap: 40px;
+    padding: 0 20px;
   }
 
   .profile-image-mask {
@@ -94,16 +95,16 @@
     height: auto;
     aspect-ratio: 1 / 1 !important;
     border-radius: 50%;
+    margin: 0 auto;
   }
 
   .bio-text {
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: left;
   }
 
   .navigation-buttons {
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 
