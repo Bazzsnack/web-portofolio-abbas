@@ -11,8 +11,7 @@ export default function Contact() {
     setStatus('submitting');
     
     const formData = new FormData(e.target);
-    // GANTI "YOUR_ACCESS_KEY_HERE" DENGAN KEY DARI WEB3FORMS
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE"); 
+    formData.append("access_key", "49b0f4c9-a691-4e01-9211-1b15d080595b"); 
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
