@@ -24,8 +24,9 @@ export default function Resume() {
         <div className="sidebar slide-up">
           <h1>Resume</h1>
           <p>
-            Rekam jejak pengalaman kerja, keterampilan, dan pendidikan 
-            yang telah membentuk kemampuan abadiku di bidang desain visual.
+            A track record of my professional experience, commercial projects, and education 
+            that has shaped my expertise in bridging visual aesthetics with structured 
+            digital business operations.
           </p>
         </div>
         
