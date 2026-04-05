@@ -162,7 +162,7 @@
 }
 
 .modal-description p {
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.9); /* Force bright text on dark modal */
   line-height: 1.8;
   font-size: 1.05rem;
   text-align: left;
