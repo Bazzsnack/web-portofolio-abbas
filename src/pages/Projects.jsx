@@ -16,9 +16,10 @@ export default function Projects() {
         <div className="sidebar slide-up">
           <h1>Projects</h1>
           <p>
-            Koleksi desain grafis yang menunjukkan eksplorasi gaya visual, 
-            komposisi warna, dan kemampuan branding untuk berbagai klien. 
-            Feed yang dirancang untuk memperkuat brand image bisnis.
+            A curated collection of digital projects divided into three main pillars: 
+            UI/UX & Web Development, Tech & Automation, and Video Production. This showcase 
+            highlights my approach to solving business challenges through modern visual design 
+            and efficient system integration.
           </p>
         </div>
         
