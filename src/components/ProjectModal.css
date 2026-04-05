@@ -94,14 +94,34 @@
   gap: 24px;
 }
 
-/* Multiply documentation support */
+/* Multiply documentation support - CSS Scroll Snap Gallery */
 .modal-media-gallery {
   display: flex;
-  flex-direction: column;
-  gap: 20px; /* Spasi antar gambar ganda */
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 15px;
+  padding-bottom: 15px;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.modal-media-gallery::-webkit-scrollbar {
+  height: 6px;
+}
+
+.modal-media-gallery::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.modal-media-gallery::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
 }
 
 .flex-media {
+  flex: 0 0 100%; /* Force each item to be 100% width of slider container */
+  scroll-snap-align: center;
   width: 100%;
   border-radius: 12px;
   overflow: hidden;
