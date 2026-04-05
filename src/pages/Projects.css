@@ -37,29 +37,28 @@
 }
 
 .filter-btn {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   color: var(--text-muted);
   padding: 8px 18px;
   border-radius: 30px;
   font-size: 0.95rem;
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.3s ease;
-  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
 }
 
 .filter-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: white;
+  background: rgba(0, 0, 0, 0.08);
+  color: var(--text-primary);
 }
 
 .filter-btn.active {
-  background: var(--color-resume); /* Using a primary color or bright shade */
-  color: #121212;
+  background: var(--color-resume);
+  color: #1a1a1a;
   border-color: var(--color-resume);
   font-weight: 600;
-  box-shadow: 0 4px 15px rgba(252, 211, 77, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .projects-grid {
