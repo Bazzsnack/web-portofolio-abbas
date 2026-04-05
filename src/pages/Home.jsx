@@ -17,10 +17,11 @@ export default function Home() {
           <h1 className="greeting mb-4">I'm Abbas</h1>
           
           <p className="bio-text">
-            otomatisasi, dan pengembangan ide visual. Melalui laman ini, aku 
-            mendokumentasikan karya, eksperimen, dan proyek yang pernah aku 
-            kerjakan sebagai bentuk portofolio yang mencerminkan proses 
-            belajar dan perkembangan kemampuanku.
+            I am a Digital Business student specializing in UI/UX Design, Video Production, 
+            and Database Management. Through this site, I document my work—ranging from 
+            interactive web development and system automation to commercial visual production. 
+            I believe that a successful digital project requires a perfect blend of strong 
+            visual appeal and well-structured data.
           </p>
 
           <div className="navigation-buttons">
