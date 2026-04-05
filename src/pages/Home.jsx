@@ -1,4 +1,5 @@
 import CircleButton from '../components/CircleButton';
+import profileImg from '../assets/asset_abbas/foto_profil.png';
 import './Home.css';
 
 export default function Home() {
@@ -7,10 +8,7 @@ export default function Home() {
       <div className="home-content">
         <div className="profile-section slide-up">
           <div className="profile-image-mask">
-            {/* Placeholder for the user's B&W photo */}
-            <div className="profile-placeholder">
-              <span>Your Photo Here</span>
-            </div>
+            <img src={profileImg} alt="Abbas Profile" className="profile-img" />
           </div>
         </div>
         

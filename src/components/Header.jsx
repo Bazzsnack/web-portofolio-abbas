@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logoImg from '../assets/asset_abbas/logo.jpeg';
 import './Header.css';
 
 export default function Header() {
@@ -6,10 +7,7 @@ export default function Header() {
     <header className="site-header">
       <div className="header-container">
         <Link to="/" className="logo-container">
-          <div className="logo-circle">
-            <span className="logo-text">ab</span>
-            <span className="logo-dot"></span>
-          </div>
+          <img src={logoImg} alt="Abbas Logo" className="logo-image" />
         </Link>
         
         <nav className="header-nav">
