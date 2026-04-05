@@ -15,54 +15,63 @@ export default function Projects() {
       id: 1, 
       title: 'Modern E-Commerce Checkout', 
       category: 'UI/UX & Web', 
-      type: 'image',
-      thumbnail: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600&h=450',
-      contentImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200',
+      thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' },
+        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' }
+      ],
       description: 'A comprehensive redesign of a digital checkout flow, reducing bounce rates by 25%. Focused on a clean, minimal user interface to guide users effortlessly through the purchasing process.'
     },
     { 
       id: 2, 
       title: 'Cinematic B-Roll Promo', 
       category: 'Video Production', 
-      type: 'video',
-      thumbnail: 'https://images.unsplash.com/photo-1601569476602-df4950ce33ba?auto=format&fit=crop&q=80&w=600&h=450',
-      contentImage: 'https://images.unsplash.com/photo-1601569476602-df4950ce33ba?auto=format&fit=crop&q=80&w=1200',
+      thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
+      contentMedia: [
+        { type: 'video', url: '/assets/portfolio/placeholder-full.jpg' },
+        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' }
+      ],
       description: 'Directed and edited a fast-paced vertical B-roll sequence tailored for TikTok and Instagram Reels. Emphasized seamless transitions and beat-syncing for maximum audience retention.'
     },
     { 
       id: 3, 
       title: 'Digital Workspace Dashboard', 
       category: 'UI/UX & Web', 
-      type: 'image',
-      thumbnail: 'https://images.unsplash.com/photo-1555421689-d68471e189f2?auto=format&fit=crop&q=80&w=600&h=450',
-      contentImage: 'https://images.unsplash.com/photo-1555421689-d68471e189f2?auto=format&fit=crop&q=80&w=1200',
+      thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' }
+      ],
       description: 'Engineered a real-time data dashboard using React. Integrated various API endpoints to visual complex datasets into easy-to-read interactive charts.'
     },
     { 
       id: 4, 
       title: 'Tech Gadget Launch', 
       category: 'Video Production', 
-      type: 'video',
-      thumbnail: 'https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&q=80&w=600&h=450',
-      contentImage: 'https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&q=80&w=1200',
+      thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
+      contentMedia: [
+        { type: 'video', url: '/assets/portfolio/placeholder-full.jpg' }
+      ],
       description: 'Produced a product launch trailer highlighting key features and high-end materials. Utilized advanced color grading and dynamic lighting to establish a premium brand feel.'
     },
     { 
       id: 5, 
       title: 'Restaurant Order Automation', 
       category: 'Tech & Automation', 
-      type: 'image',
-      thumbnail: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&q=80&w=600&h=450',
-      contentImage: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&q=80&w=1200',
+      thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' },
+        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' }
+      ],
       description: 'Connected an ordering API with a central inventory database to automate incoming F&B orders. Cut down manual order input time by 80% and reduced human error.'
     },
     { 
       id: 6, 
       title: 'Brand Identity Redesign', 
       category: 'UI/UX & Web', 
-      type: 'image',
-      thumbnail: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=600&h=450',
-      contentImage: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1200',
+      thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' }
+      ],
       description: 'Designed a complete brand package including logo, typography, and marketing assets. Created a cohesive visual language that aligned with the brand\'s new modern vision.'
     },
   ];
