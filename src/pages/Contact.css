@@ -121,6 +121,27 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+.form-alert {
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-alert.success {
+  background-color: rgba(128, 203, 196, 0.3);
+  color: #086b59;
+  border: 1px solid rgba(128, 203, 196, 0.6);
+}
+
+.form-alert.error {
+  background-color: rgba(255, 179, 186, 0.5);
+  color: #a81c2a;
+  border: 1px solid rgba(255, 179, 186, 0.8);
+}
+
 @media (max-width: 992px) {
   .contact-wrapper {
     grid-template-columns: 1fr;
