@@ -1,6 +1,9 @@
+import { useLanguage } from '../context/LanguageContext';
 import './Projects.css'; /* Reusing some layout styles from Projects */
 
 export default function Resume() {
+  const { t } = useLanguage();
+
   const experiences = [
     {
       id: 1,
@@ -32,17 +35,15 @@ export default function Resume() {
     <div className="page-container fade-in">
       <div className="content-wrapper">
         <div className="sidebar slide-up">
-          <h1>Resume</h1>
+          <h1>{t('resume', 'title')}</h1>
           <p>
-            A track record of my professional experience, commercial projects, and education 
-            that has shaped my expertise in bridging visual aesthetics with structured 
-            digital business operations.
+            {t('resume', 'desc')}
           </p>
         </div>
         
         <div className="resume-content slide-up" style={{ animationDelay: '0.2s' }}>
           <h2 style={{ marginBottom: '20px', borderBottom: '2px solid var(--text-primary)', display: 'inline-block', paddingBottom: '10px' }}>
-            Experience
+            {t('resume', 'experienceTitle')}
           </h2>
           
           <div className="experience-list">
@@ -59,7 +60,7 @@ export default function Resume() {
           </div>
 
           <h2 style={{ marginTop: '40px', marginBottom: '20px', borderBottom: '2px solid var(--text-primary)', display: 'inline-block', paddingBottom: '10px' }}>
-            Education
+            {t('resume', 'educationTitle')}
           </h2>
           
           <div className="education-list">

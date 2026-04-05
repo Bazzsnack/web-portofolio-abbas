@@ -1,6 +1,8 @@
+import { useLanguage } from '../context/LanguageContext';
 import './Projects.css';
 
 export default function Projects() {
+  const { t } = useLanguage();
   const dummyProjects = [
     { id: 1, title: 'Project 1', category: 'Social Media', color: '#ffb3ba' },
     { id: 2, title: 'Project 2', category: 'Branding', color: '#ffdfba' },
@@ -14,12 +16,9 @@ export default function Projects() {
     <div className="page-container fade-in">
       <div className="content-wrapper">
         <div className="sidebar slide-up">
-          <h1>Projects</h1>
+          <h1>{t('projects', 'title')}</h1>
           <p>
-            A curated collection of digital projects divided into three main pillars: 
-            UI/UX & Web Development, Tech & Automation, and Video Production. This showcase 
-            highlights my approach to solving business challenges through modern visual design 
-            and efficient system integration.
+            {t('projects', 'desc')}
           </p>
         </div>
         
