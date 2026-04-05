@@ -36,8 +36,8 @@ export const translations = {
         {
           id: 1,
           period: '2023 - 2026',
-          degree: 'Vocational High School - Digital Business',
-          school: 'SMKN 1 PUNGGING',
+          degree: 'SMKN 1 PUNGGING',
+          school: 'Digital Business',
           desc: 'Studied the fundamentals of digital marketing, UI/UX design, and database management. Actively engaged in practical learning through real-world projects, including system automation, commercial video production, and developing an F&B enterprise.'
         }
       ]
