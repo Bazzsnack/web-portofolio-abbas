@@ -35,7 +35,7 @@ export const translations = {
       messagePlaceholder: "Hi Abbas, I am interested in..."
     },
     footer: {
-      phone: "Phone / WA",
+      phone: "Phone",
       email: "Email",
       follow: "Follow Me"
     }
@@ -76,7 +76,7 @@ export const translations = {
       messagePlaceholder: "Hai Abbas, saya tertarik untuk..."
     },
     footer: {
-      phone: "Telepon / WA",
+      phone: "Telepon",
       email: "Email",
       follow: "Ikuti Saya"
     }
