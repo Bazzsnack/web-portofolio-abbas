@@ -4,32 +4,8 @@ import './Projects.css'; /* Reusing some layout styles from Projects */
 export default function Resume() {
   const { t } = useLanguage();
 
-  const experiences = [
-    {
-      id: 1,
-      period: 'July 2025 - December 2025',
-      role: 'Office Staff - Sales & Marketing (Intern)',
-      company: 'Intiwhiz International',
-      desc: 'Conducted market research to build B2B contact databases, executed direct hotel package pitches to potential clients, and managed administrative documents such as Banquet Event Orders (BEO) and confirmation letters in compliance with company SOP.'
-    },
-    {
-      id: 2,
-      period: 'October 2023 - April 2026',
-      role: 'Creative Marketing & Community Builder',
-      company: 'Bazz Snack (F&B)',
-      desc: 'Developed a community-based Pre-Order (PO) system with over 200 active members. Produced all visual assets and promotional materials to establish brand identity, and managed daily distribution strategies.'
-    }
-  ];
-
-  const educationList = [
-    {
-      id: 1,
-      period: '2023 - 2026',
-      degree: 'Vocational High School - Digital Business',
-      school: 'SMKN 1 PUNGGING',
-      desc: 'Studied the fundamentals of digital marketing, UI/UX design, and database management. Actively engaged in practical learning through real-world projects, including system automation, commercial video production, and developing an F&B enterprise.'
-    }
-  ];
+  const experiences = t('resume', 'experiences') || [];
+  const educationList = t('resume', 'education') || [];
 
   return (
     <div className="page-container fade-in">

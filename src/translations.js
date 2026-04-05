@@ -15,7 +15,32 @@ export const translations = {
       title: 'Resume',
       desc: "A track record of my professional experience, commercial projects, and education that has shaped my expertise in bridging visual aesthetics with structured digital business operations.",
       experienceTitle: 'Experience',
-      educationTitle: 'Education'
+      educationTitle: 'Education',
+      experiences: [
+        {
+          id: 1,
+          period: 'July 2025 - December 2025',
+          role: 'Office Staff - Sales & Marketing (Intern)',
+          company: 'Intiwhiz International',
+          desc: 'Conducted market research to build B2B contact databases, executed direct hotel package pitches to potential clients, and managed administrative documents such as Banquet Event Orders (BEO) and confirmation letters in compliance with company SOP.'
+        },
+        {
+          id: 2,
+          period: 'October 2023 - April 2026',
+          role: 'Creative Marketing & Community Builder',
+          company: 'Bazz Snack (F&B)',
+          desc: 'Developed a community-based Pre-Order (PO) system with over 200 active members. Produced all visual assets and promotional materials to establish brand identity, and managed daily distribution strategies.'
+        }
+      ],
+      education: [
+        {
+          id: 1,
+          period: '2023 - 2026',
+          degree: 'Vocational High School - Digital Business',
+          school: 'SMKN 1 PUNGGING',
+          desc: 'Studied the fundamentals of digital marketing, UI/UX design, and database management. Actively engaged in practical learning through real-world projects, including system automation, commercial video production, and developing an F&B enterprise.'
+        }
+      ]
     },
     projects: {
       title: 'Projects',
@@ -56,7 +81,32 @@ export const translations = {
       title: 'Resume',
       desc: "Rekam jejak pengalaman kerja, proyek komersial, dan pendidikan yang telah membentuk keahlian saya dalam menjembatani estetika visual dengan operasional bisnis digital yang terstruktur.",
       experienceTitle: 'Pengalaman',
-      educationTitle: 'Pendidikan'
+      educationTitle: 'Pendidikan',
+      experiences: [
+        {
+          id: 1,
+          period: 'Juli 2025 - Desember 2025',
+          role: 'Staff Kantor - Divisi Sales & Marketing (Magang)',
+          company: 'Intiwhiz International',
+          desc: 'Melakukan riset pasar untuk membangun database kontak B2B, mengeksekusi penawaran paket hotel langsung ke klien potensial, serta mengelola dokumen administratif seperti Banquet Event Orders (BEO) dan surat konfirmasi sesuai SOP perusahaan.'
+        },
+        {
+          id: 2,
+          period: 'Oktober 2023 - April 2026',
+          role: 'Creative Marketing & Community Builder',
+          company: 'Bazz Snack (F&B)',
+          desc: 'Mengembangkan sistem Pre-Order (PO) berbasis komunitas dengan lebih dari 200 anggota aktif. Memproduksi seluruh aset visual dan materi promosi untuk membangun identitas merek, serta mengelola strategi distribusi harian.'
+        }
+      ],
+      education: [
+        {
+          id: 1,
+          period: '2023 - 2026',
+          degree: 'SMK - Bidang Bisnis Digital',
+          school: 'SMKN 1 PUNGGING',
+          desc: 'Mempelajari dasar-dasar digital marketing, desain UI/UX, dan manajemen database. Terlibat aktif dalam pembelajaran praktik melalui proyek dunia nyata, termasuk otomatisasi sistem, produksi video komersial, dan pengembangan usaha F&B.'
+        }
+      ]
     },
     projects: {
       title: 'Proyek',
