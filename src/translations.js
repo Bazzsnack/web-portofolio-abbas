@@ -9,7 +9,7 @@ export const translations = {
     home: {
       hello: 'Hello,',
       im: "I'm Abbas",
-      bio: "I am a Digital Business student specializing in UI/UX Design, Video Production, and Database Management. Through this site, I document my work—ranging from interactive web development and system automation to commercial visual production. I believe that a successful digital project requires a perfect blend of strong visual appeal and well-structured data."
+      bio: "I am a Digital Business student with a strong focus on UI/UX design, video production, and business administration. Through this site, I document my projects—ranging from digital creative production to system automation and client database management. Drawing from my practical experience in the hospitality and F&B industries, I believe that a great digital project requires a balance of engaging visual appeal and highly organized data."
     },
     resume: {
       title: 'Resume',
@@ -50,7 +50,7 @@ export const translations = {
     home: {
       hello: 'Halo,',
       im: "Saya Abbas",
-      bio: "Saya mahasiswa Bisnis Digital yang berspesialisasi dalam Desain UI/UX, Produksi Video, dan Manajemen Basis Data. Melalui situs ini, saya mendokumentasikan karya—mulai dari web interaktif dan otomatisasi sistem hingga produksi visual komersial. Saya percaya kesuksesan proyek digital membutuhkan perpaduan sempurna antara daya tarik visual dan data yang terstruktur."
+      bio: "Aku adalah siswa Bisnis Digital yang berfokus pada desain UI/UX, produksi video, dan administrasi bisnis. Melalui situs ini, aku mendokumentasikan berbagai karyaku—mulai dari produksi kreatif digital, otomatisasi sistem, hingga manajemen database klien. Berbekal pengalaman praktik di industri perhotelan dan F&B, aku percaya bahwa proyek digital yang sukses membutuhkan keseimbangan antara visual yang menarik dan data yang terstruktur rapi."
     },
     resume: {
       title: 'Resume',
