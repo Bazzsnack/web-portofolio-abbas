@@ -102,8 +102,8 @@ export const translations = {
         {
           id: 1,
           period: '2023 - 2026',
-          degree: 'SMK - Bidang Bisnis Digital',
-          school: 'SMKN 1 PUNGGING',
+          degree: 'SMKN 1 PUNGGING',
+          school: 'BISNIS DIGITAL',
           desc: 'Mempelajari dasar-dasar digital marketing, desain UI/UX, dan manajemen database. Terlibat aktif dalam pembelajaran praktik melalui proyek dunia nyata, termasuk otomatisasi sistem, produksi video komersial, dan pengembangan usaha F&B.'
         }
       ]
