@@ -6,12 +6,15 @@ import './Projects.css';
 export default function Projects() {
   const { t } = useLanguage();
   const [selectedProject, setSelectedProject] = useState(null);
+  const [activeCategory, setActiveCategory] = useState('All');
+
+  const categories = ['All', 'UI/UX & Web', 'Tech & Automation', 'Video Production'];
 
   const dummyProjects = [
     { 
       id: 1, 
       title: 'Modern E-Commerce Checkout', 
-      category: 'UI/UX Design', 
+      category: 'UI/UX & Web', 
       type: 'image',
       thumbnail: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600&h=450',
       contentImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200',
@@ -29,7 +32,7 @@ export default function Projects() {
     { 
       id: 3, 
       title: 'Digital Workspace Dashboard', 
-      category: 'Web Development', 
+      category: 'UI/UX & Web', 
       type: 'image',
       thumbnail: 'https://images.unsplash.com/photo-1555421689-d68471e189f2?auto=format&fit=crop&q=80&w=600&h=450',
       contentImage: 'https://images.unsplash.com/photo-1555421689-d68471e189f2?auto=format&fit=crop&q=80&w=1200',
@@ -47,7 +50,7 @@ export default function Projects() {
     { 
       id: 5, 
       title: 'Restaurant Order Automation', 
-      category: 'System Integration', 
+      category: 'Tech & Automation', 
       type: 'image',
       thumbnail: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&q=80&w=600&h=450',
       contentImage: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&q=80&w=1200',
@@ -56,13 +59,17 @@ export default function Projects() {
     { 
       id: 6, 
       title: 'Brand Identity Redesign', 
-      category: 'Graphic Design', 
+      category: 'UI/UX & Web', 
       type: 'image',
       thumbnail: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=600&h=450',
       contentImage: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1200',
       description: 'Designed a complete brand package including logo, typography, and marketing assets. Created a cohesive visual language that aligned with the brand\'s new modern vision.'
     },
   ];
+
+  const filteredProjects = activeCategory === 'All' 
+    ? dummyProjects 
+    : dummyProjects.filter(project => project.category === activeCategory);
 
   return (
     <div className="page-container fade-in">
@@ -74,22 +81,37 @@ export default function Projects() {
           </p>
         </div>
         
-        <div className="projects-grid slide-up" style={{ animationDelay: '0.2s' }}>
-          {dummyProjects.map(project => (
-            <div 
-              key={project.id} 
-              className="project-card"
-              onClick={() => setSelectedProject(project)}
-            >
-              <img src={project.thumbnail} alt={project.title} className="project-thumbnail" />
-              <div className="project-overlay">
-                <div className="project-info">
-                  <h3>{project.title}</h3>
-                  <span>{project.category}</span>
+        <div className="projects-main-content">
+          <div className="filter-tabs slide-up" style={{ animationDelay: '0.1s' }}>
+            {categories.map(cat => (
+              <button 
+                key={cat} 
+                className={`filter-btn ${activeCategory === cat ? 'active' : ''}`}
+                onClick={() => setActiveCategory(cat)}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+
+          <div className="projects-grid slide-up" style={{ animationDelay: '0.2s' }}>
+            {filteredProjects.map((project, index) => (
+              <div 
+                key={project.id} 
+                className="project-card fade-in"
+                style={{ animationDelay: `${index * 0.05}s` }}
+                onClick={() => setSelectedProject(project)}
+              >
+                <img src={project.thumbnail} alt={project.title} className="project-thumbnail" />
+                <div className="project-overlay">
+                  <div className="project-info">
+                    <h3>{project.title}</h3>
+                    <span>{project.category}</span>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
       

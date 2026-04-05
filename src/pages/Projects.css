@@ -24,6 +24,44 @@
   color: var(--text-muted);
 }
 
+.projects-main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.filter-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+}
+
+.filter-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.filter-btn.active {
+  background: var(--color-resume); /* Using a primary color or bright shade */
+  color: #121212;
+  border-color: var(--color-resume);
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(252, 211, 77, 0.2);
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
