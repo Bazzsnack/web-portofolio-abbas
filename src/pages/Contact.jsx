@@ -1,8 +1,39 @@
+import { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import './Contact.css';
 
 export default function Contact() {
   const { t } = useLanguage();
+  const [status, setStatus] = useState(''); // '' | 'submitting' | 'success' | 'error'
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus('submitting');
+    
+    const formData = new FormData(e.target);
+    // GANTI "YOUR_ACCESS_KEY_HERE" DENGAN KEY DARI WEB3FORMS
+    formData.append("access_key", "YOUR_ACCESS_KEY_HERE"); 
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+      
+      const data = await res.json();
+      if (data.success) {
+        setStatus('success');
+        e.target.reset();
+        setTimeout(() => setStatus(''), 5000);
+      } else {
+        setStatus('error');
+        setTimeout(() => setStatus(''), 5000);
+      }
+    } catch (err) {
+      setStatus('error');
+      setTimeout(() => setStatus(''), 5000);
+    }
+  };
 
   return (
     <div className="page-container fade-in">
@@ -26,25 +57,28 @@ export default function Contact() {
         </div>
 
         <div className="contact-form-container slide-up" style={{ animationDelay: '0.2s' }}>
-          <form className="glass-form" onSubmit={(e) => e.preventDefault()}>
+          <form className="glass-form" onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="name">{t('contact', 'formName')}</label>
-              <input type="text" id="name" placeholder={t('contact', 'namePlaceholder')} required />
+              <input type="text" name="name" id="name" placeholder={t('contact', 'namePlaceholder')} required disabled={status === 'submitting'} />
             </div>
             
             <div className="form-group">
               <label htmlFor="email">{t('contact', 'formEmail')}</label>
-              <input type="email" id="email" placeholder={t('contact', 'emailPlaceholder')} required />
+              <input type="email" name="email" id="email" placeholder={t('contact', 'emailPlaceholder')} required disabled={status === 'submitting'} />
             </div>
             
             <div className="form-group">
               <label htmlFor="message">{t('contact', 'formMessage')}</label>
-              <textarea id="message" rows="5" placeholder={t('contact', 'messagePlaceholder')} required></textarea>
+              <textarea name="message" id="message" rows="5" placeholder={t('contact', 'messagePlaceholder')} required disabled={status === 'submitting'}></textarea>
             </div>
             
-            <button type="submit" className="submit-btn" style={{ backgroundColor: 'var(--color-contact)' }}>
-              {t('contact', 'send')}
+            <button type="submit" className="submit-btn" style={{ backgroundColor: 'var(--color-contact)' }} disabled={status === 'submitting'}>
+              {status === 'submitting' ? 'Sending...' : t('contact', 'send')}
             </button>
+            
+            {status === 'success' && <p className="form-alert success">✅ Message sent successfully!</p>}
+            {status === 'error' && <p className="form-alert error">❌ Failed to send message. Try again later.</p>}
           </form>
         </div>
       </div>
