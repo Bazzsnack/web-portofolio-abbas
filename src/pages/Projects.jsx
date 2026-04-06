@@ -12,6 +12,25 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 15,
+      title: 'Yamaha Fazzio - Carrousel Feed Design',
+      category: 'Motion & Advertising',
+      thumbnail: '/assets/portfolio/fazzio-carousel-thumb.png',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/fazzio-carousel-slide1.png' },
+        { type: 'image', url: '/assets/portfolio/fazzio-carousel-slide2.png' },
+        { type: 'image', url: '/assets/portfolio/fazzio-carousel-slide3.png' },
+        { type: 'image', url: '/assets/portfolio/fazzio-carousel-slide4.png' },
+        { type: 'image', url: '/assets/portfolio/fazzio-carousel-slide5.png' },
+        { type: 'image', url: '/assets/portfolio/fazzio-carousel-slide6.png' },
+        { type: 'image', url: '/assets/portfolio/fazzio-carousel-slide7.png' }
+      ],
+      description: {
+        en: "Designed a dynamic and modern Instagram carousel feed for Yamaha Fazzio. Focused on cohesive visual storytelling, vibrant layout, and brand consistency to effectively engage the Gen Z target audience and highlight the product's stylish features.",
+        id: "Merancang desain feed Instagram carousel yang dinamis dan modern untuk Yamaha Fazzio. Berfokus pada visual storytelling yang kohesif, tata letak yang cerah, dan konsistensi brand untuk secara efektif menarik audiens target Gen Z dan menonjolkan fitur-fitur bergaya produk."
+      }
+    },
+    {
       id: 14,
       title: 'Eco-Innovation System - Visual Storytelling',
       category: 'Motion & Advertising',
