@@ -12,6 +12,19 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 9,
+      title: 'Gojek - Brand Motion Graphic Remake',
+      category: 'Content Production',
+      thumbnail: '/assets/portfolio/gojek-cover.webp',
+      contentMedia: [
+        { type: 'youtube', url: '84RzYxZbPDQ' }
+      ],
+      description: {
+        en: "Reimagined and produced a dynamic motion graphic animation for the Gojek brand. Focused on fluid transitions and energetic pacing to capture the brand's fast-paced, innovative identity while demonstrating advanced motion design and visual storytelling skills.",
+        id: "Membuat ulang dan memproduksi animasi motion graphic dinamis untuk brand Gojek. Berfokus pada transisi yang mulus dan tempo yang energik untuk menangkap identitas brand yang cepat dan inovatif, sekaligus mendemonstrasikan keahlian desain motion dan visual storytelling tingkat lanjut."
+      }
+    },
+    {
       id: 8,
       title: 'Frisian Flag - Product Animation Ads',
       category: 'Content Production',
