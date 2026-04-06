@@ -17,7 +17,7 @@ export default function Projects() {
       category: 'Motion & Advertising',
       thumbnail: '/assets/portfolio/ig-reels-marketing-cover.webp',
       contentMedia: [
-        { type: 'image', url: '/assets/portfolio/ig-reels-grid-collection.webp' }
+        { type: 'image', url: '/assets/portfolio/ig-reels-marketing-grid-collection.webp' }
       ],
       description: {
         en: "Designed and edited a series of engaging, vertical Instagram Reels for social media marketing. Focused on fast-paced dynamic visuals, product showcases, and audience engagement.",
