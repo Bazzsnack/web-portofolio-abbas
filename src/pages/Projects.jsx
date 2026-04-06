@@ -12,6 +12,19 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 12,
+      title: '3D Animated Wedding Invitation - Elegant Digital Experience',
+      category: 'Motion & Advertising',
+      thumbnail: '/assets/portfolio/wedding-3d-cover.png',
+      contentMedia: [
+        { type: 'youtube', url: 'QkVqfpiBh64' }
+      ],
+      description: {
+        en: "Produced an elegant and cinematic 3D animated wedding invitation. Focused on creating fluid camera movements, detailed 3D modeling of event elements, and luxurious rendering to deliver a personalized and memorable digital invitation experience.",
+        id: "Memproduksi undangan pernikahan animasi 3D yang elegan dan sinematik. Berfokus pada pembuatan gerakan kamera yang mulus, pemodelan 3D mendetail dari elemen acara, dan rendering mewah untuk memberikan pengalaman undangan digital yang dipersonalisasi dan berkesan."
+      }
+    },
+    {
       id: 11,
       title: 'F&B Product Showcase - Dynamic Motion Ads',
       category: 'Motion & Advertising',
