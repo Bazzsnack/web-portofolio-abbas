@@ -12,6 +12,19 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 10,
+      title: 'Bazz Snack - Social Media Motion Ads',
+      category: 'Content Production',
+      thumbnail: '/assets/portfolio/bazz-cover.png',
+      contentMedia: [
+        { type: 'youtube', url: 'i04np2xtc-Y' }
+      ],
+      description: {
+        en: "Produced a vibrant, vertical motion graphic campaign for Bazz Snack tailored for social media platforms (Reels/Stories). Combined mouth-watering visuals with a clean layout and clear call-to-action to highlight the F&B menu, streamline the ordering flow, and drive sales conversions.",
+        id: "Memproduksi kampanye motion graphic vertikal yang cerah untuk Bazz Snack, dirancang khusus untuk platform media sosial (Reels/Stories). Menggabungkan visual yang menggugah selera dengan tata letak yang bersih dan call-to-action yang jelas untuk menonjolkan menu F&B, mempermudah alur pemesanan, dan mendorong konversi penjualan."
+      }
+    },
+    {
       id: 9,
       title: 'Gojek - Brand Motion Graphic Remake',
       category: 'Content Production',
