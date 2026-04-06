@@ -32,10 +32,10 @@ export default function Projects() {
       category: 'Digital Product & UI Design',
       thumbnail: '/assets/portfolio/kos-manager-cover.webp',
       contentMedia: [
-        { type: 'image', url: '/assets/portfolio/kos-manager-1.webp' },
-        { type: 'image', url: '/assets/portfolio/kos-manager-2.webp' },
-        { type: 'image', url: '/assets/portfolio/kos-manager-3.webp' },
-        { type: 'image', url: '/assets/portfolio/kos-manager-4.webp' }
+        { type: 'image', url: '/assets/portfolio/kos-manager-cover-1.webp' },
+        { type: 'image', url: '/assets/portfolio/kos-manager-cover-2.webp' },
+        { type: 'image', url: '/assets/portfolio/kos-manager-cover-3.webp' },
+        { type: 'image', url: '/assets/portfolio/kos-manager-cover-4.webp' }
       ],
       description: {
         en: "Designed an intuitive web application for boarding house (kos) management. Focused on creating a seamless user experience for property owners to track tenants, payments, and room availability efficiently through a clean and modern dashboard interface.",
