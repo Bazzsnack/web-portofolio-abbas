@@ -12,6 +12,21 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 7,
+      title: 'Kirana Tour & Travel - Booking Website',
+      category: 'UI/UX & Web',
+      thumbnail: '/assets/portfolio/kirana-thumb.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/kirana-ui-1.webp' },
+        { type: 'image', url: '/assets/portfolio/kirana-ui-2.webp' },
+        { type: 'image', url: '/assets/portfolio/kirana-ui-3.webp' }
+      ],
+      description: {
+        en: "Engineered a seamless travel booking platform for Kirana Tour & Travel. Focused on designing an intuitive UI/UX to enhance the customer journey and successfully integrated a secure payment gateway via Midtrans to streamline business transactions.",
+        id: "Membangun platform pemesanan travel untuk Kirana Tour & Travel. Fokus merancang UI/UX yang intuitif untuk meningkatkan pengalaman pelanggan dan berhasil mengintegrasikan gateway pembayaran yang aman melalui Midtrans untuk memperlancar transaksi bisnis."
+      }
+    },
+    {
       id: 1,
       title: 'Modern E-Commerce Checkout',
       category: 'UI/UX & Web',

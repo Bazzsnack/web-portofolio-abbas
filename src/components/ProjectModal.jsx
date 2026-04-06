@@ -1,6 +1,9 @@
 import './ProjectModal.css';
+import { useLanguage } from '../context/LanguageContext';
 
 export default function ProjectModal({ project, onClose }) {
+  const { lang } = useLanguage();
+  
   if (!project) return null;
 
   // Normalization logic: allows passing multiple media URLs in an array format OR fallback to existing single image setup
@@ -33,7 +36,7 @@ export default function ProjectModal({ project, onClose }) {
           </div>
           
           <div className="modal-description">
-            <p>{project.description}</p>
+            <p>{typeof project.description === 'object' ? project.description[lang] : project.description}</p>
           </div>
         </div>
       </div>
