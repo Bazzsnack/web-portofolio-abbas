@@ -15,7 +15,7 @@ export default function Projects() {
       id: 9,
       title: 'Gojek - Brand Motion Graphic Remake',
       category: 'Content Production',
-      thumbnail: '/assets/portfolio/gojek-cover.png',
+      thumbnail: '/assets/portfolio/gojek-cover.webp',
       contentMedia: [
         { type: 'youtube', url: '84RzYxZbPDQ' }
       ],
@@ -28,7 +28,7 @@ export default function Projects() {
       id: 8,
       title: 'Frisian Flag - Product Animation Ads',
       category: 'Content Production',
-      thumbnail: '/assets/portfolio/frisian-cover.png',
+      thumbnail: '/assets/portfolio/frisian-cover.webp',
       thumbnailZoom: true,
       contentMedia: [
         { type: 'youtube', url: 'UhbUJ9_Qd5o' }
@@ -57,10 +57,10 @@ export default function Projects() {
       id: 1,
       title: 'Modern E-Commerce Checkout',
       category: 'UI/UX & Web',
-      thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
+      thumbnail: '/assets/portfolio/placeholder-thumb.webp',
       contentMedia: [
-        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' },
-        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' }
+        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' },
+        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' }
       ],
       description: 'A comprehensive redesign of a digital checkout flow, reducing bounce rates by 25%. Focused on a clean, minimal user interface to guide users effortlessly through the purchasing process.'
     },
@@ -68,10 +68,10 @@ export default function Projects() {
       id: 2,
       title: 'Cinematic B-Roll Promo',
       category: 'Content Production',
-      thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
+      thumbnail: '/assets/portfolio/placeholder-thumb.webp',
       contentMedia: [
-        { type: 'video', url: '/assets/portfolio/placeholder-full.jpg' },
-        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' }
+        { type: 'video', url: '/assets/portfolio/placeholder-full.webp' },
+        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' }
       ],
       description: 'Directed and edited a fast-paced vertical B-roll sequence tailored for TikTok and Instagram Reels. Emphasized seamless transitions and beat-syncing for maximum audience retention.'
     },
@@ -79,9 +79,9 @@ export default function Projects() {
       id: 3,
       title: 'Digital Workspace Dashboard',
       category: 'UI/UX & Web',
-      thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
+      thumbnail: '/assets/portfolio/placeholder-thumb.webp',
       contentMedia: [
-        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' }
+        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' }
       ],
       description: 'Engineered a real-time data dashboard using React. Integrated various API endpoints to visual complex datasets into easy-to-read interactive charts.'
     },
@@ -89,9 +89,9 @@ export default function Projects() {
       id: 4,
       title: 'Tech Gadget Launch',
       category: 'Content Production',
-      thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
+      thumbnail: '/assets/portfolio/placeholder-thumb.webp',
       contentMedia: [
-        { type: 'video', url: '/assets/portfolio/placeholder-full.jpg' }
+        { type: 'video', url: '/assets/portfolio/placeholder-full.webp' }
       ],
       description: 'Produced a product launch trailer highlighting key features and high-end materials. Utilized advanced color grading and dynamic lighting to establish a premium brand feel.'
     },
@@ -99,10 +99,10 @@ export default function Projects() {
       id: 5,
       title: 'Restaurant Order Automation',
       category: 'Tech & Automation',
-      thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
+      thumbnail: '/assets/portfolio/placeholder-thumb.webp',
       contentMedia: [
-        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' },
-        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' }
+        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' },
+        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' }
       ],
       description: 'Connected an ordering API with a central inventory database to automate incoming F&B orders. Cut down manual order input time by 80% and reduced human error.'
     },
@@ -110,9 +110,9 @@ export default function Projects() {
       id: 6,
       title: 'Brand Identity Redesign',
       category: 'UI/UX & Web',
-      thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
+      thumbnail: '/assets/portfolio/placeholder-thumb.webp',
       contentMedia: [
-        { type: 'image', url: '/assets/portfolio/placeholder-full.jpg' }
+        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' }
       ],
       description: 'Designed a complete brand package including logo, typography, and marketing assets. Created a cohesive visual language that aligned with the brand\'s new modern vision.'
     },
