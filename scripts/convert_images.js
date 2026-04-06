@@ -10,7 +10,7 @@ const targetDir = path.resolve(__dirname, '../public/assets/portfolio');
 async function convertToWebp() {
   const files = fs.readdirSync(targetDir);
   for (const file of files) {
-    if (file.endsWith('.png') || file.endsWith('.jpg')) {
+    if (file.endsWith('.png') || file.endsWith('.jpg') || file.endsWith('.jpeg')) {
       const filePath = path.join(targetDir, file);
       const ext = path.extname(file);
       const newFilePath = path.join(targetDir, file.replace(ext, '.webp'));
