@@ -12,6 +12,19 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 13,
+      title: 'Lontong Kikil - Narrative Video Commercial',
+      category: 'Motion & Advertising',
+      thumbnail: '/assets/portfolio/lontong-kikil-cover.png',
+      contentMedia: [
+        { type: 'youtube', url: 'rK-uBi8EvRM' }
+      ],
+      description: {
+        en: "Directed and produced a narrative-driven commercial video for a local culinary brand. Seamlessly blended semi-drama storytelling with high-quality F&B cinematography to build an emotional connection with the audience while highlighting the product's authentic appeal.",
+        id: "Menyutradarai dan memproduksi video komersial berbasis narasi untuk brand kuliner lokal. Memadukan penceritaan semi-drama dengan sinematografi F&B berkualitas tinggi secara mulus untuk membangun koneksi emosional dengan audiens sekaligus menonjolkan daya tarik autentik produk."
+      }
+    },
+    {
       id: 12,
       title: '3D Animated Wedding Invitation - Elegant Digital Experience',
       category: 'Motion & Advertising',
