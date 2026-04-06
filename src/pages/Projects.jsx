@@ -16,6 +16,7 @@ export default function Projects() {
       title: 'Frisian Flag - Product Animation Ads',
       category: 'Content Production',
       thumbnail: '/assets/portfolio/frisian-cover.png',
+      thumbnailZoom: true,
       contentMedia: [
         { type: 'youtube', url: 'UhbUJ9_Qd5o' }
       ],
@@ -139,7 +140,7 @@ export default function Projects() {
                 style={{ animationDelay: `${index * 0.05}s` }}
                 onClick={() => setSelectedProject(project)}
               >
-                <img src={project.thumbnail} alt={project.title} className="project-thumbnail" />
+                <img src={project.thumbnail} alt={project.title} className={`project-thumbnail${project.thumbnailZoom ? ' thumbnail-zoomed' : ''}`} />
                 <div className="project-overlay">
                   <div className="project-info">
                     <h3>{project.title}</h3>
