@@ -12,6 +12,19 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 14,
+      title: 'Eco-Innovation System - Visual Storytelling',
+      category: 'Motion & Advertising',
+      thumbnail: '/assets/portfolio/eco-innovation-cover.png',
+      contentMedia: [
+        { type: 'youtube', url: 'qgNokGpYILU' }
+      ],
+      description: {
+        en: "Directed a compelling visual storytelling project showcasing an eco-friendly innovation: a rainwater utilization system for school irrigation. Translated complex environmental mechanisms into an engaging and easy-to-understand narrative, highlighting sustainability and technological impact.",
+        id: "Mengarahkan proyek visual storytelling yang memikat untuk memamerkan inovasi ramah lingkungan: sistem pemanfaatan air hujan untuk pengairan sekolah. Menerjemahkan mekanisme lingkungan yang kompleks menjadi narasi yang menarik dan mudah dipahami, dengan menonjolkan nilai keberlanjutan dan dampak teknologi."
+      }
+    },
+    {
       id: 13,
       title: 'Lontong Kikil - Narrative Video Commercial',
       category: 'Motion & Advertising',
