@@ -8,13 +8,13 @@ export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'UI/UX & Web', 'Tech & Automation', 'Content Production'];
+  const categories = ['All', 'Digital Product & UI Design', 'Creative Technology', 'Motion & Advertising'];
 
   const dummyProjects = [
     {
       id: 10,
       title: 'Bazz Snack - Social Media Motion Ads',
-      category: 'Content Production',
+      category: 'Motion & Advertising',
       thumbnail: '/assets/portfolio/bazz-cover.png',
       contentMedia: [
         { type: 'youtube', url: 'i04np2xtc-Y' }
@@ -27,7 +27,7 @@ export default function Projects() {
     {
       id: 9,
       title: 'Gojek - Brand Motion Graphic Remake',
-      category: 'Content Production',
+      category: 'Motion & Advertising',
       thumbnail: '/assets/portfolio/gojek-cover.webp',
       contentMedia: [
         { type: 'youtube', url: '84RzYxZbPDQ' }
@@ -40,7 +40,7 @@ export default function Projects() {
     {
       id: 8,
       title: 'Frisian Flag - Product Animation Ads',
-      category: 'Content Production',
+      category: 'Motion & Advertising',
       thumbnail: '/assets/portfolio/frisian-cover.webp',
       thumbnailZoom: true,
       contentMedia: [
@@ -54,7 +54,7 @@ export default function Projects() {
     {
       id: 7,
       title: 'Kirana Tour & Travel - Booking Website',
-      category: 'UI/UX & Web',
+      category: 'Digital Product & UI Design',
       thumbnail: '/assets/portfolio/kirana-thumb.webp',
       contentMedia: [
         { type: 'image', url: '/assets/portfolio/kirana-ui-1.webp' },
@@ -69,7 +69,7 @@ export default function Projects() {
     {
       id: 1,
       title: 'Modern E-Commerce Checkout',
-      category: 'UI/UX & Web',
+      category: 'Digital Product & UI Design',
       thumbnail: '/assets/portfolio/placeholder-thumb.webp',
       contentMedia: [
         { type: 'image', url: '/assets/portfolio/placeholder-full.webp' },
@@ -80,7 +80,7 @@ export default function Projects() {
     {
       id: 2,
       title: 'Cinematic B-Roll Promo',
-      category: 'Content Production',
+      category: 'Motion & Advertising',
       thumbnail: '/assets/portfolio/placeholder-thumb.webp',
       contentMedia: [
         { type: 'video', url: '/assets/portfolio/placeholder-full.webp' },
@@ -91,7 +91,7 @@ export default function Projects() {
     {
       id: 3,
       title: 'Digital Workspace Dashboard',
-      category: 'UI/UX & Web',
+      category: 'Digital Product & UI Design',
       thumbnail: '/assets/portfolio/placeholder-thumb.webp',
       contentMedia: [
         { type: 'image', url: '/assets/portfolio/placeholder-full.webp' }
@@ -101,7 +101,7 @@ export default function Projects() {
     {
       id: 4,
       title: 'Tech Gadget Launch',
-      category: 'Content Production',
+      category: 'Motion & Advertising',
       thumbnail: '/assets/portfolio/placeholder-thumb.webp',
       contentMedia: [
         { type: 'video', url: '/assets/portfolio/placeholder-full.webp' }
@@ -111,7 +111,7 @@ export default function Projects() {
     {
       id: 5,
       title: 'Restaurant Order Automation',
-      category: 'Tech & Automation',
+      category: 'Creative Technology',
       thumbnail: '/assets/portfolio/placeholder-thumb.webp',
       contentMedia: [
         { type: 'image', url: '/assets/portfolio/placeholder-full.webp' },
@@ -122,7 +122,7 @@ export default function Projects() {
     {
       id: 6,
       title: 'Brand Identity Redesign',
-      category: 'UI/UX & Web',
+      category: 'Digital Product & UI Design',
       thumbnail: '/assets/portfolio/placeholder-thumb.webp',
       contentMedia: [
         { type: 'image', url: '/assets/portfolio/placeholder-full.webp' }
