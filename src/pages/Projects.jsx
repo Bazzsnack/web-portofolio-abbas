@@ -12,6 +12,19 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 11,
+      title: 'F&B Product Showcase - Dynamic Motion Ads',
+      category: 'Motion & Advertising',
+      thumbnail: '/assets/portfolio/fnb-showcase-cover.png',
+      contentMedia: [
+        { type: 'youtube', url: '4I4SG_cEiMs' }
+      ],
+      description: {
+        en: "Crafted a mouth-watering motion graphic campaign focused on highlighting the core menu of an F&B brand. Utilized dynamic animations, engaging transitions, and appetite-inducing visuals to captivate the target audience and elevate the product's digital market appeal.",
+        id: "Membuat kampanye motion graphic yang menggugah selera dengan fokus menonjolkan menu utama dari brand F&B. Memanfaatkan animasi dinamis, transisi yang menarik, dan visual yang meningkatkan selera makan untuk memikat audiens target dan menaikkan daya tarik produk di pasar digital."
+      }
+    },
+    {
       id: 10,
       title: 'Bazz Snack - Social Media Motion Ads',
       category: 'Motion & Advertising',
