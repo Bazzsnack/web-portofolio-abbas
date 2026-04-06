@@ -12,6 +12,37 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 19,
+      title: 'Web POS (Point of Sale) - UI/UX System',
+      category: 'Digital Product & UI Design',
+      thumbnail: '/assets/portfolio/web-pos-cover.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/web-pos-1.webp' },
+        { type: 'image', url: '/assets/portfolio/web-pos-2.webp' },
+        { type: 'image', url: '/assets/portfolio/web-pos-3.webp' }
+      ],
+      description: {
+        en: "Architected the user interface and experience for a web-based Point of Sale (POS) system. Designed to streamline cashier operations, inventory tracking, and sales reporting with a user-friendly, responsive layout tailored for fast-paced retail or F&B environments.",
+        id: "Merancang antarmuka dan pengalaman pengguna untuk sistem Point of Sale (POS) berbasis web. Didesain untuk menyederhanakan operasi kasir, pelacakan inventaris, dan pelaporan penjualan dengan tata letak yang responsif dan ramah pengguna, disesuaikan untuk lingkungan ritel atau F&B yang serba cepat."
+      }
+    },
+    {
+      id: 18,
+      title: 'Kos Manager - Web Application UI/UX',
+      category: 'Digital Product & UI Design',
+      thumbnail: '/assets/portfolio/kos-manager-cover.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/kos-manager-1.webp' },
+        { type: 'image', url: '/assets/portfolio/kos-manager-2.webp' },
+        { type: 'image', url: '/assets/portfolio/kos-manager-3.webp' },
+        { type: 'image', url: '/assets/portfolio/kos-manager-4.webp' }
+      ],
+      description: {
+        en: "Designed an intuitive web application for boarding house (kos) management. Focused on creating a seamless user experience for property owners to track tenants, payments, and room availability efficiently through a clean and modern dashboard interface.",
+        id: "Merancang aplikasi web yang intuitif untuk manajemen rumah kos. Berfokus pada penciptaan pengalaman pengguna yang mulus bagi pemilik properti untuk melacak penyewa, pembayaran, dan ketersediaan kamar secara efisien melalui antarmuka dasbor yang bersih dan modern."
+      }
+    },
+    {
       id: 17,
       title: 'Instagram Reels - Dynamic Social Media Marketing',
       category: 'Motion & Advertising',
