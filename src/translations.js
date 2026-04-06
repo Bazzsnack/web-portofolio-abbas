@@ -9,7 +9,7 @@ export const translations = {
     home: {
       hello: 'Hello,',
       im: "I'm Abbas",
-      bio: "I am a Digital Business student with a strong focus on UI/UX design, video production, and business administration. Through this site, I document my projects—ranging from digital creative production to system automation and client database management. Drawing from my practical experience in the hospitality and F&B industries, I believe that a great digital project requires a balance of engaging visual appeal and highly organized data."
+      bio: "I am a Digital Business student with a strong focus on UI/UX design, content production, and business administration. Through this site, I document my projects—ranging from digital creative production to system automation and client database management. Drawing from my practical experience in the hospitality and F&B industries, I believe that a great digital project requires a balance of engaging visual appeal and highly organized data."
     },
     resume: {
       title: 'Resume',
@@ -38,13 +38,13 @@ export const translations = {
           period: '2023 - 2026',
           degree: 'SMKN 1 PUNGGING',
           school: 'Digital Business',
-          desc: 'Studied the fundamentals of digital marketing, UI/UX design, and database management. Actively engaged in practical learning through real-world projects, including system automation, commercial video production, and developing an F&B enterprise.'
+          desc: 'Studied the fundamentals of digital marketing, UI/UX design, and database management. Actively engaged in practical learning through real-world projects, including system automation, commercial content production, and developing an F&B enterprise.'
         }
       ]
     },
     projects: {
       title: 'Projects',
-      desc: "A curated collection of digital projects divided into three main pillars: UI/UX & Web Development, Tech & Automation, and Video Production. This showcase highlights my approach to solving business challenges through modern visual design and efficient system integration."
+      desc: "A curated collection of digital projects divided into three main pillars: UI/UX & Web Development, Tech & Automation, and content production. This showcase highlights my approach to solving business challenges through modern visual design and efficient system integration."
     },
     contact: {
       title: "Let's Talk!",
@@ -75,7 +75,7 @@ export const translations = {
     home: {
       hello: 'Halo,',
       im: "Saya Abbas",
-      bio: "Aku adalah siswa Bisnis Digital yang berfokus pada desain UI/UX, produksi video, dan administrasi bisnis. Melalui situs ini, aku mendokumentasikan berbagai karyaku—mulai dari produksi kreatif digital, otomatisasi sistem, hingga manajemen database klien. Berbekal pengalaman praktik di industri perhotelan dan F&B, aku percaya bahwa proyek digital yang sukses membutuhkan keseimbangan antara visual yang menarik dan data yang terstruktur rapi."
+      bio: "Aku adalah siswa Bisnis Digital yang berfokus pada desain UI/UX, produksi konten, dan administrasi bisnis. Melalui situs ini, aku mendokumentasikan berbagai karyaku—mulai dari produksi kreatif digital, otomatisasi sistem, hingga manajemen database klien. Berbekal pengalaman praktik di industri perhotelan dan F&B, aku percaya bahwa proyek digital yang sukses membutuhkan keseimbangan antara visual yang menarik dan data yang terstruktur rapi."
     },
     resume: {
       title: 'Resume',
@@ -104,13 +104,13 @@ export const translations = {
           period: '2023 - 2026',
           degree: 'SMKN 1 PUNGGING',
           school: 'BISNIS DIGITAL',
-          desc: 'Mempelajari dasar-dasar digital marketing, desain UI/UX, dan manajemen database. Terlibat aktif dalam pembelajaran praktik melalui proyek dunia nyata, termasuk otomatisasi sistem, produksi video komersial, dan pengembangan usaha F&B.'
+          desc: 'Mempelajari dasar-dasar digital marketing, desain UI/UX, dan manajemen database. Terlibat aktif dalam pembelajaran praktik melalui proyek dunia nyata, termasuk otomatisasi sistem, produksi konten komersial, dan pengembangan usaha F&B.'
         }
       ]
     },
     projects: {
       title: 'Proyek',
-      desc: "Koleksi proyek digital yang terkurasi menjadi tiga pilar utama: UI/UX & Web Development, Teknologi & Otomatisasi, dan Produksi Video. Portofolio ini menyoroti pendekatan saya dalam memecahkan tantangan bisnis melalui desain modern dan integrasi sistem yang efisien."
+      desc: "Koleksi proyek digital yang terkurasi menjadi tiga pilar utama: UI/UX & Web Development, Teknologi & Otomatisasi, dan produksi konten. Portofolio ini menyoroti pendekatan saya dalam memecahkan tantangan bisnis melalui desain modern dan integrasi sistem yang efisien."
     },
     contact: {
       title: "Mari Berdiskusi!",

@@ -8,7 +8,7 @@ export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'UI/UX & Web', 'Tech & Automation', 'Video Production'];
+  const categories = ['All', 'UI/UX & Web', 'Tech & Automation', 'Content Production'];
 
   const dummyProjects = [
     {
@@ -25,7 +25,7 @@ export default function Projects() {
     {
       id: 2,
       title: 'Cinematic B-Roll Promo',
-      category: 'Video Production',
+      category: 'Content Production',
       thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
       contentMedia: [
         { type: 'video', url: '/assets/portfolio/placeholder-full.jpg' },
@@ -46,7 +46,7 @@ export default function Projects() {
     {
       id: 4,
       title: 'Tech Gadget Launch',
-      category: 'Video Production',
+      category: 'Content Production',
       thumbnail: '/assets/portfolio/placeholder-thumb.jpg',
       contentMedia: [
         { type: 'video', url: '/assets/portfolio/placeholder-full.jpg' }
