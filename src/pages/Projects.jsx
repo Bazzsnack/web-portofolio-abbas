@@ -15,7 +15,7 @@ export default function Projects() {
       id: 9,
       title: 'Gojek - Brand Motion Graphic Remake',
       category: 'Content Production',
-      thumbnail: '/assets/portfolio/gojek-cover.webp',
+      thumbnail: '/assets/portfolio/gojek-cover.png',
       contentMedia: [
         { type: 'youtube', url: '84RzYxZbPDQ' }
       ],
