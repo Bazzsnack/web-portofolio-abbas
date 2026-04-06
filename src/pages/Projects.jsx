@@ -12,6 +12,39 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 21,
+      title: 'Laundry Manager - Mobile App UI/UX Design',
+      category: 'Digital Product & UI Design',
+      thumbnail: '/assets/portfolio/laundry-mobile-cover.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/laundry-mobile-ui1.webp' },
+        { type: 'image', url: '/assets/portfolio/laundry-mobile-ui2.webp' },
+        { type: 'image', url: '/assets/portfolio/laundry-mobile-ui3.webp' },
+        { type: 'image', url: '/assets/portfolio/laundry-mobile-ui4.webp' }
+      ],
+      description: {
+        en: "Crafted a user-centric mobile application design for laundry business operations. Prioritized a streamlined user flow for order tracking, customer management, and digital receipt generation, ensuring a smooth and visually pleasing experience for business owners.",
+        id: "Merancang desain aplikasi seluler yang berpusat pada pengguna untuk operasional bisnis penatu (laundry). Mengutamakan alur pengguna yang efisien untuk pelacakan pesanan, manajemen pelanggan, dan pembuatan tanda terima digital, memastikan pengalaman yang lancar dan menyenangkan secara visual bagi pemilik bisnis."
+      }
+    },
+    {
+      id: 20,
+      title: 'Kos Manager - Mobile App UI/UX Design',
+      category: 'Digital Product & UI Design',
+      thumbnail: '/assets/portfolio/kos-mobile-cover.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/kos-mobile-ui1.webp' },
+        { type: 'image', url: '/assets/portfolio/kos-mobile-ui2.webp' },
+        { type: 'image', url: '/assets/portfolio/kos-mobile-ui3.webp' },
+        { type: 'image', url: '/assets/portfolio/kos-mobile-ui4.webp' },
+        { type: 'image', url: '/assets/portfolio/kos-mobile-ui5.webp' }
+      ],
+      description: {
+        en: "Designed a mobile application interface for boarding house management. Focused on delivering a highly accessible and intuitive mobile UX, allowing property owners to manage tenants, monitor rent statuses, and handle operational tasks on the go.",
+        id: "Merancang antarmuka aplikasi seluler untuk manajemen rumah kos. Berfokus pada penyajian UX seluler yang sangat mudah diakses dan intuitif, memungkinkan pemilik properti mengelola penyewa, memantau status sewa, dan menangani tugas operasional secara langsung dari ponsel."
+      }
+    },
+    {
       id: 19,
       title: 'Web POS (Point of Sale) - UI/UX System',
       category: 'Digital Product & UI Design',
