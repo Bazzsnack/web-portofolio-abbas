@@ -34,7 +34,7 @@ export default function Projects() {
       id: 14,
       title: 'Eco-Innovation System - Visual Storytelling',
       category: 'Motion & Advertising',
-      thumbnail: '/assets/portfolio/eco-innovation-cover.png',
+      thumbnail: '/assets/portfolio/eco-innovation-cover.webp',
       contentMedia: [
         { type: 'youtube', url: 'qgNokGpYILU' }
       ],
@@ -47,7 +47,7 @@ export default function Projects() {
       id: 13,
       title: 'Lontong Kikil - Narrative Video Commercial',
       category: 'Motion & Advertising',
-      thumbnail: '/assets/portfolio/lontong-kikil-cover.png',
+      thumbnail: '/assets/portfolio/lontong-kikil-cover.webp',
       contentMedia: [
         { type: 'youtube', url: 'rK-uBi8EvRM' }
       ],
@@ -60,7 +60,7 @@ export default function Projects() {
       id: 12,
       title: '3D Animated Wedding Invitation - Elegant Digital Experience',
       category: 'Motion & Advertising',
-      thumbnail: '/assets/portfolio/wedding-3d-cover.png',
+      thumbnail: '/assets/portfolio/wedding-3d-cover.webp',
       contentMedia: [
         { type: 'youtube', url: 'QkVqfpiBh64' }
       ],
@@ -73,7 +73,7 @@ export default function Projects() {
       id: 11,
       title: 'F&B Product Showcase - Dynamic Motion Ads',
       category: 'Motion & Advertising',
-      thumbnail: '/assets/portfolio/fnb-showcase-cover.png',
+      thumbnail: '/assets/portfolio/fnb-showcase-cover.webp',
       contentMedia: [
         { type: 'youtube', url: '4I4SG_cEiMs' }
       ],
@@ -86,7 +86,7 @@ export default function Projects() {
       id: 10,
       title: 'Bazz Snack - Social Media Motion Ads',
       category: 'Motion & Advertising',
-      thumbnail: '/assets/portfolio/bazz-cover.png',
+      thumbnail: '/assets/portfolio/bazz-cover.webp',
       contentMedia: [
         { type: 'youtube', url: 'i04np2xtc-Y' }
       ],
