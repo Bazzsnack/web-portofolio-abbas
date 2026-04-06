@@ -12,6 +12,20 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 16,
+      title: 'F&B Social Media Feed - Design System Collection',
+      category: 'Motion & Advertising',
+      thumbnail: '/assets/portfolio/fnb-feed-system-cover.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/fnb-feed-collection-grid1.webp' },
+        { type: 'image', url: '/assets/portfolio/fnb-feed-collection-grid.webp' }
+      ],
+      description: {
+        en: "Architected a cohesive visual design system for an F&B brand's social media grid. This collection showcases a diverse range of strategically designed posts—including product showcases, interactive polls, testimonials, and nutritional benefit breakdowns—all optimized for maximum audience engagement and brand recall.",
+        id: "Membangun sistem desain visual yang kohesif untuk grid media sosial brand F&B. Koleksi ini menampilkan beragam postingan yang dirancang secara strategis—termasuk pameran produk, jajak pendapat interaktif, testimoni, dan perincian manfaat nutrisi—semuanya dioptimalkan untuk engagement audiens dan daya ingat brand yang maksimal."
+      }
+    },
+    {
       id: 15,
       title: 'Yamaha Fazzio - Carrousel Feed Design',
       category: 'Motion & Advertising',
