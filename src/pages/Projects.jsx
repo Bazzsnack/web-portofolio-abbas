@@ -12,6 +12,19 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 8,
+      title: 'Frisian Flag - Product Animation Ads',
+      category: 'Content Production',
+      thumbnail: '/assets/portfolio/frisian-cover.png',
+      contentMedia: [
+        { type: 'youtube', url: 'UhbUJ9_Qd5o' }
+      ],
+      description: {
+        en: "Directed and produced a dynamic motion graphic advertisement for Frisian Flag. Leveraged digital storytelling and modern aesthetics to highlight key nutritional benefits, driving audience engagement and brand awareness.",
+        id: "Memproduksi iklan motion graphic dinamis untuk Frisian Flag. Memanfaatkan digital storytelling dan estetika modern untuk menonjolkan manfaat nutrisi utama, mendorong engagement audiens dan brand awareness."
+      }
+    },
+    {
       id: 7,
       title: 'Kirana Tour & Travel - Booking Website',
       category: 'UI/UX & Web',
