@@ -105,69 +105,7 @@ export default function Projects() {
         id: "Membangun platform pemesanan travel untuk Kirana Tour & Travel. Fokus merancang UI/UX yang intuitif untuk meningkatkan pengalaman pelanggan dan berhasil mengintegrasikan gateway pembayaran yang aman melalui Midtrans untuk memperlancar transaksi bisnis."
       }
     },
-    {
-      id: 1,
-      title: 'Modern E-Commerce Checkout',
-      category: 'Digital Product & UI Design',
-      thumbnail: '/assets/portfolio/placeholder-thumb.webp',
-      contentMedia: [
-        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' },
-        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' }
-      ],
-      description: 'A comprehensive redesign of a digital checkout flow, reducing bounce rates by 25%. Focused on a clean, minimal user interface to guide users effortlessly through the purchasing process.'
-    },
-    {
-      id: 2,
-      title: 'Cinematic B-Roll Promo',
-      category: 'Motion & Advertising',
-      thumbnail: '/assets/portfolio/placeholder-thumb.webp',
-      contentMedia: [
-        { type: 'video', url: '/assets/portfolio/placeholder-full.webp' },
-        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' }
-      ],
-      description: 'Directed and edited a fast-paced vertical B-roll sequence tailored for TikTok and Instagram Reels. Emphasized seamless transitions and beat-syncing for maximum audience retention.'
-    },
-    {
-      id: 3,
-      title: 'Digital Workspace Dashboard',
-      category: 'Digital Product & UI Design',
-      thumbnail: '/assets/portfolio/placeholder-thumb.webp',
-      contentMedia: [
-        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' }
-      ],
-      description: 'Engineered a real-time data dashboard using React. Integrated various API endpoints to visual complex datasets into easy-to-read interactive charts.'
-    },
-    {
-      id: 4,
-      title: 'Tech Gadget Launch',
-      category: 'Motion & Advertising',
-      thumbnail: '/assets/portfolio/placeholder-thumb.webp',
-      contentMedia: [
-        { type: 'video', url: '/assets/portfolio/placeholder-full.webp' }
-      ],
-      description: 'Produced a product launch trailer highlighting key features and high-end materials. Utilized advanced color grading and dynamic lighting to establish a premium brand feel.'
-    },
-    {
-      id: 5,
-      title: 'Restaurant Order Automation',
-      category: 'Creative Technology',
-      thumbnail: '/assets/portfolio/placeholder-thumb.webp',
-      contentMedia: [
-        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' },
-        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' }
-      ],
-      description: 'Connected an ordering API with a central inventory database to automate incoming F&B orders. Cut down manual order input time by 80% and reduced human error.'
-    },
-    {
-      id: 6,
-      title: 'Brand Identity Redesign',
-      category: 'Digital Product & UI Design',
-      thumbnail: '/assets/portfolio/placeholder-thumb.webp',
-      contentMedia: [
-        { type: 'image', url: '/assets/portfolio/placeholder-full.webp' }
-      ],
-      description: 'Designed a complete brand package including logo, typography, and marketing assets. Created a cohesive visual language that aligned with the brand\'s new modern vision.'
-    },
+
   ];
 
   const filteredProjects = activeCategory === 'All'
