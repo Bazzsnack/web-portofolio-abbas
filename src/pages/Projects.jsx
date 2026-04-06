@@ -12,6 +12,19 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 22,
+      title: 'Islamic Media Production - Haramain Project',
+      category: 'Motion & Advertising',
+      thumbnail: '/assets/portfolio/haramain-project-cover.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/haramain-project-ui1.webp' }
+      ],
+      description: {
+        en: "Produced a series of engaging and educational short-form vertical videos for Haramain Project during a freelance period. The content focuses on Islamic teachings, historical insights, and tips for pilgrims, utilizing dynamic motion graphics, character animation, and high-quality videography to deliver powerful narratives and foster spiritual connection.",
+        id: "Memproduksi serangkaian video pendek vertikal yang menarik dan edukatif untuk Haramain Project selama masa freelance. Konten berfokus pada ajaran Islam, wawasan sejarah, dan tips untuk jamaah, memanfaatkan motion graphics dinamis, animasi karakter, dan videografi berkualitas tinggi untuk menyampaikan narasi yang kuat dan menumbuhkan koneksi spiritual."
+      }
+    },
+    {
       id: 21,
       title: 'Laundry Manager - Mobile App UI/UX Design',
       category: 'Digital Product & UI Design',
