@@ -12,6 +12,21 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 25,
+      title: 'AI Personal Assistant - Productivity Automation',
+      category: 'Creative Technology',
+      thumbnail: '/assets/portfolio/ai-assistant-cover.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/ai-assistant-1.webp' },
+        { type: 'image', url: '/assets/portfolio/ai-assistant-2.webp' },
+        { type: 'image', url: '/assets/portfolio/ai-assistant-3.webp' }
+      ],
+      description: {
+        en: "A Telegram-based AI personal assistant designed to centralize daily productivity tasks. It resolves app-switching fatigue by allowing users to manage schedules, check agendas, and handle emails via text or voice notes directly within chat. This centralized integration saves 30-50% of daily management time, reduces missed appointments by up to 70%, and makes email handling twice as fast.",
+        id: "Asisten pribadi AI berbasis Telegram yang dirancang untuk memusatkan tugas produktivitas harian. Memecahkan masalah peralihan antar-aplikasi dengan memungkinkan pengguna mengelola jadwal, mengecek agenda, dan menangani email melalui teks atau voice note langsung di dalam obrolan. Integrasi terpusat ini menghemat 30-50% waktu pengelolaan harian, mengurangi risiko lupa agenda hingga 70%, dan membuat pemrosesan email dua kali lebih cepat."
+      }
+    },
+    {
       id: 24,
       title: 'ChatBot Admin Gudang - Inventory Automation',
       category: 'Creative Technology',
