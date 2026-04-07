@@ -46,7 +46,7 @@ export default function CVModal({ isOpen, onClose }) {
         </div>
 
         {/* The Printable A4 Sheet */}
-        <div className="cv-document" id="cv-printable-area">
+        <div className="cv-document" id="cv-printable-area" ref={targetRef}>
           {/* Header */}
           <header className="cv-header">
             <div className="cv-header-text">
