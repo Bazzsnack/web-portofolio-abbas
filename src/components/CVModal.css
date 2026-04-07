@@ -6,12 +6,12 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(8px);
-  z-index: 9999;
+  z-index: 999999;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   overflow-y: auto;
-  padding: 40px 20px;
+  padding: 120px 20px 60px;
 }
 
 .cv-modal-container {
@@ -49,6 +49,7 @@
   font-size: 0.9rem;
   cursor: pointer;
   transition: all 0.2s ease;
+  text-decoration: none;
 }
 
 .cv-icon {
@@ -221,49 +222,6 @@
 
 .cv-item-bullets li {
   margin-bottom: 4px;
-}
-
-/* PRINTER MEDIA QUERY */
-@media print {
-  body * {
-    visibility: hidden;
-  }
-  
-  .cv-modal-overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    background: transparent;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-  }
-  
-  .cv-document, .cv-document * {
-    visibility: visible;
-  }
-  
-  .cv-no-print {
-    display: none !important;
-  }
-  
-  .cv-document {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    box-shadow: none;
-    border-radius: 0;
-    padding: 20px 40px;
-  }
-
-  /* Optional tweaking to fit standard A4 */
-  @page {
-    size: A4 portrait;
-    margin: 1cm;
-  }
 }
 
 /* Responsiveness for mobile web view */

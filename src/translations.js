@@ -66,7 +66,7 @@ export const translations = {
     },
     cv: {
       title: "Abbas - Creative Technologist",
-      downloadText: "Print / Save PDF",
+      downloadText: "Download PDF",
       closeText: "Close",
       profilePicAlt: "Abbas Profile Picture",
       summary: "Dynamic Digital Business student (Class of 2026) and specialized Creative Technologist. Bridges the gap between aesthetically driven UI/UX design, engaging motion advertising, and operational workflow automation. Backed by 3 years of entrepreneurial F&B success and formal hospitality experience, equipped with a deep understanding of customer-centric digital solutions and data-driven business administration.",
@@ -192,7 +192,7 @@ export const translations = {
     },
     cv: {
       title: "Abbas - Creative Technologist",
-      downloadText: "Cetak / Simpan PDF",
+      downloadText: "Unduh PDF",
       closeText: "Tutup",
       profilePicAlt: "Foto Profil Abbas",
       summary: "Siswa Bisnis Digital (Lulus 2026) yang dinamis sekaligus Creative Technologist khusus. Menjembatani desain UI/UX yang estetis, periklanan motion yang memikat, dan otomasi alur kerja operasional. Didukung oleh 3 tahun kesuksesan bisnis F&B serta pengalaman formal di bidang hospitality, berbekal pemahaman mendalam tentang solusi digital yang berpusat pada pelanggan dan administrasi bisnis berbasis data.",

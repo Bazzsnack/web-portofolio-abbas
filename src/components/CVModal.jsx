@@ -22,12 +22,12 @@ export default function CVModal({ isOpen, onClose }) {
     <div className="cv-modal-overlay">
       <div className="cv-modal-container">
         
-        {/* Action Bar (Not printed) */}
-        <div className="cv-action-bar cv-no-print">
-          <button className="cv-btn cv-btn-print" onClick={handlePrint}>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="cv-icon"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
-            {cv.downloadText || "Print / Save PDF"}
-          </button>
+        {/* Action Bar */}
+        <div className="cv-action-bar">
+          <a className="cv-btn cv-btn-print" href="/CV_Abbas.pdf" download="CV_Abbas_Creative_Technologist.pdf">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="cv-icon"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            {cv.downloadText || "Download PDF"}
+          </a>
           <button className="cv-btn cv-btn-close" onClick={onClose}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="cv-icon"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             {cv.closeText || "Close"}
