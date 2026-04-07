@@ -8,6 +8,7 @@ export const translations = {
     },
     home: {
       hello: 'Hello,',
+      im: "I'm Abbas",
       bio: "I am a Digital Business student and a Creative Technologist, specializing in digital product design, motion advertising, and workflow automation. Through this portfolio, I document my journey in solving real-world business challenges—from crafting intuitive user interfaces and compelling visual narratives to engineering efficient AI-driven systems. Drawing from my hands-on experience in the hospitality and F&B industries, I believe that an impactful digital solution requires a perfect harmony of engaging aesthetics, strategic storytelling, and highly organized, data-driven automation."
     },
     resume: {
