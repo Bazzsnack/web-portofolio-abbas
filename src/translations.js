@@ -69,7 +69,7 @@ export const translations = {
       downloadText: "Download PDF",
       closeText: "Close",
       profilePicAlt: "Abbas Profile Picture",
-      summary: "Dynamic Digital Business student (Class of 2026) and specialized Creative Technologist. Bridges the gap between aesthetically driven UI/UX design, engaging motion advertising, and operational workflow automation. Backed by 3 years of entrepreneurial F&B success and formal hospitality experience, equipped with a deep understanding of customer-centric digital solutions and data-driven business administration.",
+      summary: "Dynamic Digital Business student (Class of 2026) and a Creative Technologist specializing in UI/UX and automation. Bridges the gap between aesthetically driven UI/UX design, engaging motion advertising, and operational workflow automation. Backed by 3 years of entrepreneurial F&B success and formal hospitality experience, equipped with a deep understanding of customer-centric digital solutions and data-driven business administration.",
       coreCompetencies: "Core Competencies & Skills",
       skills: [
         {
@@ -78,7 +78,7 @@ export const translations = {
         },
         {
           title: "Creative Technology (Automation)",
-          desc: "Constructing zero-touch automation logic for Telegram/IG chat bots, mass-broadcasting, and inventory sync. Slashing operational overhead by 80% and mitigating human error. (Tools: n8n, Google Apps Script, API)"
+          desc: "Constructing end-to-end automation logic for Telegram/IG chat bots, mass-broadcasting, and inventory sync. Reducing operational overhead by 80% and mitigating human error. (Tools: n8n, Google Apps Script, API)"
         },
         {
           title: "Motion & Advertising",
@@ -118,7 +118,7 @@ export const translations = {
       educationTitle: "Education",
       education: [
         {
-          degree: "Digital Business Vocational",
+          degree: "Vocational High School - Digital Business Major",
           school: "SMKN 1 Pungging",
           period: "Class of 2026"
         }
@@ -195,7 +195,7 @@ export const translations = {
       downloadText: "Unduh PDF",
       closeText: "Tutup",
       profilePicAlt: "Foto Profil Abbas",
-      summary: "Siswa Bisnis Digital (Lulus 2026) yang dinamis sekaligus Creative Technologist khusus. Menjembatani desain UI/UX yang estetis, periklanan motion yang memikat, dan otomasi alur kerja operasional. Didukung oleh 3 tahun kesuksesan bisnis F&B serta pengalaman formal di bidang hospitality, berbekal pemahaman mendalam tentang solusi digital yang berpusat pada pelanggan dan administrasi bisnis berbasis data.",
+      summary: "Siswa Bisnis Digital (Lulus 2026) dan Creative Technologist yang berfokus pada inovasi digital. Menjembatani desain UI/UX yang estetis, periklanan motion yang memikat, dan otomasi alur kerja operasional. Didukung oleh 3 tahun kesuksesan bisnis F&B serta pengalaman formal di bidang hospitality, berbekal pemahaman mendalam tentang solusi digital yang berpusat pada pelanggan dan administrasi bisnis berbasis data.",
       coreCompetencies: "Kompetensi Utama & Keahlian",
       skills: [
         {
@@ -204,11 +204,11 @@ export const translations = {
         },
         {
           title: "Creative Technology (Automation)",
-          desc: "Membangun logika otomasi tanpa sentuhan untuk chatbot Telegram/IG, email massal, dan sinkronisasi inventaris gundang. Memangkas biaya dan waktu operasional hingga 80% & menekan human error. (Tools: n8n, Google Apps Script, API)"
+          desc: "Membangun sistem otomasi penuh (end-to-end) untuk chatbot Telegram/IG, broadcast email massal, dan sinkronisasi inventaris gudang. Memangkas biaya dan waktu operasional hingga 80% & menekan human error. (Tools: n8n, Google Apps Script, API)"
         },
         {
           title: "Motion & Advertising",
-          desc: "Storytelling visual skala penuh, sistem desain grid media sosial, rendering 3D dinamis, dan produksi video komersial berwujud naratif. (Tools: Premiere, After Effects, 3D Rendering)"
+          desc: "Storytelling visual skala penuh, sistem desain grid media sosial, rendering 3D dinamis, dan produksi video komersial dengan pendekatan storytelling. (Tools: Premiere, After Effects, 3D Rendering)"
         }
       ],
       experienceTitle: "Pengalaman Profesional",
@@ -218,8 +218,8 @@ export const translations = {
           company: "Berbagai Proyek Komersial & Digital",
           period: "2024 - Sekarang",
           bullets: [
-            "Mengotomatisasikan operasi balasan DM IG, WhatsApp, & Email, menghemat waktu respons hingga 80%.",
-            "Merekayasa asisten pribadi AI terpusat dan chatbot inventaris gudang harian.",
+            "Membangun sistem balasan otomatis untuk DM IG, WhatsApp, & Email, menghemat waktu respons hingga 80%.",
+            "Mengembangkan asisten pribadi AI terpusat dan chatbot inventaris gudang harian.",
             "Merancang antarmuka UI/UX yang intuitif secara end-to-end untuk Manajemen Kos dan sistem POS.",
             "Memproduksi iklan sinematik dan animasi arsitektural 3D untuk commercial brand produk klien."
           ]
