@@ -12,6 +12,20 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 28,
+      title: 'Auto Broadcast WhatsApp - Messaging Automation',
+      category: 'Creative Technology',
+      thumbnail: '/assets/portfolio/wa-automation-cover.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/wa-automation-1.webp' },
+        { type: 'image', url: '/assets/portfolio/wa-automation-2.webp' }
+      ],
+      description: {
+        en: "An automated mass WhatsApp broadcasting system integrated with Google Sheets and WhatsApp API via n8n. It eliminates the inefficiency of manual messaging by allowing users to schedule and send bulk messages automatically based on database inputs. The system logs delivery statuses in real-time, saving up to 80% of messaging time and ensuring 100% documented monitoring.",
+        id: "Sistem pengiriman pesan WhatsApp massal otomatis yang terintegrasi dengan Google Sheets dan WhatsApp API melalui n8n. Menghilangkan inefisiensi pengiriman pesan manual dengan memungkinkan pengguna menjadwalkan dan mengirim pesan massal secara otomatis berdasarkan input database. Sistem ini mencatat status pengiriman secara real-time, menghemat hingga 80% waktu pengiriman pesan dan memastikan pemantauan terdokumentasi 100%."
+      }
+    },
+    {
       id: 27,
       title: 'AI Auto Broadcast Email - Email Automation System',
       category: 'Creative Technology',
