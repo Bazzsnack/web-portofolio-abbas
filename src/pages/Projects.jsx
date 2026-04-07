@@ -12,6 +12,21 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 26,
+      title: 'ChatBot Instagram - DM Automation',
+      category: 'Creative Technology',
+      thumbnail: '/assets/portfolio/ig-chatbot-cover.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/ig-chatbot-1.webp' },
+        { type: 'image', url: '/assets/portfolio/ig-chatbot-2.webp' },
+        { type: 'image', url: '/assets/portfolio/ig-chatbot-3.webp' }
+      ],
+      description: {
+        en: "An automated customer service chatbot for Instagram Direct Messages built using the Meta Developer Platform and n8n workflows. It addresses slow response times by instantly answering keyword-based inquiries 24/7, featuring a seamless handover to human admins for complex issues. The system reduces response times to under 5 seconds, automatically handles up to 80% of routine questions, and cuts customer service workload by half.",
+        id: "Chatbot layanan pelanggan otomatis untuk Direct Message Instagram yang dibangun menggunakan Meta Developer Platform dan alur kerja n8n. Mengatasi masalah waktu respons lambat dengan menjawab pertanyaan berbasis kata kunci secara instan 24/7, dilengkapi fitur transisi mulus ke admin manusia untuk masalah kompleks. Sistem ini memangkas waktu respons menjadi di bawah 5 detik, menangani hingga 80% pertanyaan rutin secara otomatis, dan mengurangi beban kerja customer service hingga 50%."
+      }
+    },
+    {
       id: 25,
       title: 'AI Personal Assistant - Productivity Automation',
       category: 'Creative Technology',
