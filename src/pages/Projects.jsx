@@ -12,6 +12,21 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 27,
+      title: 'AI Auto Broadcast Email - Email Automation System',
+      category: 'Creative Technology',
+      thumbnail: '/assets/portfolio/email-automation-cover.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/email-automation-1.webp' },
+        { type: 'image', url: '/assets/portfolio/email-automation-2.webp' },
+        { type: 'image', url: '/assets/portfolio/email-automation-3.webp' }
+      ],
+      description: {
+        en: "An automated email broadcasting system integrated with Google Sheets to streamline mass communication. It eliminates slow, manual sending by allowing admins to simply input recipient data, triggering the system to automatically dispatch emails, log delivery timestamps, and send success notifications. This solution cuts email delivery time by up to 80% and ensures consistent, professional outreach.",
+        id: "Sistem penyiaran email otomatis yang terintegrasi dengan Google Sheets untuk menyederhanakan komunikasi massal. Sistem ini menghilangkan pengiriman manual yang lambat dengan memungkinkan admin cukup memasukkan data penerima, memicu sistem untuk otomatis mengirim email, mencatat waktu pengiriman, dan mengirim notifikasi sukses. Solusi ini memangkas waktu pengiriman email hingga 80% dan memastikan jangkauan komunikasi yang konsisten dan profesional."
+      }
+    },
+    {
       id: 26,
       title: 'ChatBot Instagram - DM Automation',
       category: 'Creative Technology',
