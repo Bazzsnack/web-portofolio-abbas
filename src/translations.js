@@ -63,6 +63,66 @@ export const translations = {
       phone: "Phone",
       email: "Email",
       follow: "Follow Me"
+    },
+    cv: {
+      title: "Abbas - Creative Technologist",
+      downloadText: "Print / Save PDF",
+      closeText: "Close",
+      profilePicAlt: "Abbas Profile Picture",
+      summary: "Dynamic Digital Business student (Class of 2026) and specialized Creative Technologist. Bridges the gap between aesthetically driven UI/UX design, engaging motion advertising, and operational workflow automation. Backed by 3 years of entrepreneurial F&B success and formal hospitality experience, equipped with a deep understanding of customer-centric digital solutions and data-driven business administration.",
+      coreCompetencies: "Core Competencies & Skills",
+      skills: [
+        {
+          title: "Digital Product & UI Design",
+          desc: "End-to-end web & mobile interfaces, complex dashboard layouts (POS, Kos Management), responsive design. (Tools: Figma, React/Web Tech)"
+        },
+        {
+          title: "Creative Technology (Automation)",
+          desc: "Constructing zero-touch automation logic for Telegram/IG chat bots, mass-broadcasting, and inventory sync. Slashing operational overhead by 80% and mitigating human error. (Tools: n8n, Google Apps Script, API)"
+        },
+        {
+          title: "Motion & Advertising",
+          desc: "Full-scale visual storytelling, social media grid design systems, dynamic 3D rendering, and narrative commercial video production. (Tools: Premiere, After Effects, 3D Rendering)"
+        }
+      ],
+      experienceTitle: "Professional Experience",
+      experiences: [
+        {
+          role: "Freelance Creative Technologist",
+          company: "Various Commercial & Digital Projects",
+          period: "2024 - Present",
+          bullets: [
+            "Automated WhatsApp, Email, & IG DM operations, cutting response/dispatch times by up to 80%.",
+            "Engineered centralized AI personal assistants and warehouse inventory chatbots.",
+            "Designed end-to-end intuitive UI/UX structures for Kos Management and POS systems.",
+            "Produced cinematic advertising and 3D architectural animation for commercial brands."
+          ]
+        },
+        {
+          role: "Sales & Marketing Intern",
+          company: "Intiwhiz International",
+          period: "Jul 2025 - Dec 2025",
+          bullets: [
+            "Handled B2B database research, direct hotel package pitching, and precise administrative documentation (BEO) adhering to strict corporate SOPs."
+          ]
+        },
+        {
+          role: "Creative Marketing & Community Builder",
+          company: "Bazz Snack (F&B)",
+          period: "Oct 2023 - Present",
+          bullets: [
+            "Designed brand identity and grew a community-based Pre-Order (PO) system with 200+ active members."
+          ]
+        }
+      ],
+      educationTitle: "Education",
+      education: [
+        {
+          degree: "Digital Business Vocational",
+          school: "SMKN 1 Pungging",
+          period: "Class of 2026"
+        }
+      ]
     }
   },
   id: {
@@ -129,6 +189,66 @@ export const translations = {
       phone: "Telepon",
       email: "Email",
       follow: "Ikuti Saya"
+    },
+    cv: {
+      title: "Abbas - Creative Technologist",
+      downloadText: "Cetak / Simpan PDF",
+      closeText: "Tutup",
+      profilePicAlt: "Foto Profil Abbas",
+      summary: "Siswa Bisnis Digital (Lulus 2026) yang dinamis sekaligus Creative Technologist khusus. Menjembatani desain UI/UX yang estetis, periklanan motion yang memikat, dan otomasi alur kerja operasional. Didukung oleh 3 tahun kesuksesan bisnis F&B serta pengalaman formal di bidang hospitality, berbekal pemahaman mendalam tentang solusi digital yang berpusat pada pelanggan dan administrasi bisnis berbasis data.",
+      coreCompetencies: "Kompetensi Utama & Keahlian",
+      skills: [
+        {
+          title: "Digital Product & UI Design",
+          desc: "Antarmuka web & aplikasi mobile, tata letak dashboard kompleks (POS, Manajemen Kos), desain responsif. (Tools: Figma, React/Web Tech)"
+        },
+        {
+          title: "Creative Technology (Automation)",
+          desc: "Membangun logika otomasi tanpa sentuhan untuk chatbot Telegram/IG, email massal, dan sinkronisasi inventaris gundang. Memangkas biaya dan waktu operasional hingga 80% & menekan human error. (Tools: n8n, Google Apps Script, API)"
+        },
+        {
+          title: "Motion & Advertising",
+          desc: "Storytelling visual skala penuh, sistem desain grid media sosial, rendering 3D dinamis, dan produksi video komersial berwujud naratif. (Tools: Premiere, After Effects, 3D Rendering)"
+        }
+      ],
+      experienceTitle: "Pengalaman Profesional",
+      experiences: [
+        {
+          role: "Freelance Creative Technologist",
+          company: "Berbagai Proyek Komersial & Digital",
+          period: "2024 - Sekarang",
+          bullets: [
+            "Mengotomatisasikan operasi balasan DM IG, WhatsApp, & Email, menghemat waktu respons hingga 80%.",
+            "Merekayasa asisten pribadi AI terpusat dan chatbot inventaris gudang harian.",
+            "Merancang antarmuka UI/UX yang intuitif secara end-to-end untuk Manajemen Kos dan sistem POS.",
+            "Memproduksi iklan sinematik dan animasi arsitektural 3D untuk commercial brand produk klien."
+          ]
+        },
+        {
+          role: "Sales & Marketing Intern",
+          company: "Intiwhiz International",
+          period: "Jul 2025 - Des 2025",
+          bullets: [
+            "Menangani penelitian database B2B, melakukan presentasi penawaran paket hotel secara langsung, dan menyusun dokumen administrasi presisi (seperti BEO) dengan mematuhi SOP perusahaan."
+          ]
+        },
+        {
+          role: "Creative Marketing & Community Builder",
+          company: "Bazz Snack (F&B)",
+          period: "Okt 2023 - Sekarang",
+          bullets: [
+            "Merancang identitas brand dan mengembangkan sistem Pre-Order (PO) berbasis komunitas dengan 200+ anggota aktif tetap."
+          ]
+        }
+      ],
+      educationTitle: "Pendidikan",
+      education: [
+        {
+          degree: "Bisnis Digital Terapan",
+          school: "SMKN 1 Pungging",
+          period: "Lulusan 2026"
+        }
+      ]
     }
   }
 };
