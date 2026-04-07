@@ -12,6 +12,21 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 23,
+      title: 'Auto Generate Invoice - Automation System',
+      category: 'Creative Technology',
+      thumbnail: '/assets/portfolio/auto-invoice-cover.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/auto-invoice-1.webp' },
+        { type: 'image', url: '/assets/portfolio/auto-invoice-2.webp' },
+        { type: 'image', url: '/assets/portfolio/auto-invoice-3.webp' }
+      ],
+      description: {
+        en: "An automated invoice generation system driven by Telegram chat commands and the n8n automation engine. It solves slow and error-prone manual invoicing by utilizing AI to process data directly from chat. The system automatically generates the invoice file, sends it to the user, and records transactions in real-time to Google Sheets, cutting creation time from 15 minutes to under 1 minute and reducing human error by up to 80%.",
+        id: "Sistem otomasi pembuatan invoice berbasis perintah obrolan Telegram dan mesin otomatisasi n8n. Memecahkan masalah pembuatan manual yang lambat dan rawan kesalahan dengan memanfaatkan AI untuk memproses data langsung dari obrolan. Sistem ini secara otomatis membuat file invoice, mengirimkannya kepada pengguna, dan merekap transaksi secara real-time ke Google Sheets, memangkas waktu pembuatan dari 15 menit menjadi kurang dari 1 menit serta menekan human error hingga 80%."
+      }
+    },
+    {
       id: 22,
       title: 'Islamic Media Production - Haramain Project',
       category: 'Motion & Advertising',
