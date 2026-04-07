@@ -2,10 +2,12 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../translations';
 import profileImg from '../assets/asset_abbas/foto_profil.png';
+import { usePDF } from 'react-to-pdf';
 import './CVModal.css';
 
 export default function CVModal({ isOpen, onClose }) {
-  const { lang, t } = useLanguage();
+  const { lang } = useLanguage();
+  const { toPDF, targetRef } = usePDF({ filename: 'CV_Abbas_Creative_Technologist.pdf' });
 
   if (!isOpen) return null;
 
@@ -14,28 +16,13 @@ export default function CVModal({ isOpen, onClose }) {
   const experiences = cv.experiences || [];
   const education = cv.education || [];
 
-  const handleDownload = (e) => {
-    e.preventDefault();
-    const element = document.getElementById('cv-printable-area');
-    
-    const opt = {
-      margin:       [10, 0, 10, 0], // Margin aman atas-bawah
-      filename:     'CV_Abbas_Creative_Technologist.pdf',
-      image:        { type: 'jpeg', quality: 0.98 },
-      html2canvas:  { scale: 2, useCORS: true },
-      jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
-    };
-
-    html2pdf().set(opt).from(element).save();
-  };
-
   return (
     <div className="cv-modal-overlay">
       <div className="cv-modal-container">
         
         {/* Action Bar */}
         <div className="cv-action-bar">
-          <button className="cv-btn cv-btn-print" onClick={handleDownload}>
+          <button className="cv-btn cv-btn-print" onClick={() => toPDF()}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="cv-icon"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
             {cv.downloadText || "Download PDF"}
           </button>
@@ -46,7 +33,7 @@ export default function CVModal({ isOpen, onClose }) {
         </div>
 
         {/* The Printable A4 Sheet */}
-        <div className="cv-document" id="cv-printable-area" ref={targetRef}>
+        <div className="cv-document" ref={targetRef}>
           {/* Header */}
           <header className="cv-header">
             <div className="cv-header-text">
