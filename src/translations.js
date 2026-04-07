@@ -9,7 +9,7 @@ export const translations = {
     home: {
       hello: 'Hello,',
       im: "I'm Abbas",
-      bio: "I am a Digital Business student and a Creative Technologist, specializing in digital product design, motion advertising, and workflow automation. Through this portfolio, I document my journey in solving real-world business challenges—from crafting intuitive user interfaces and compelling visual narratives to engineering efficient AI-driven systems. Drawing from my hands-on experience in the hospitality and F&B industries, I believe that an impactful digital solution requires a perfect harmony of engaging aesthetics, strategic storytelling, and highly organized, data-driven automation."
+      bio: "I am a Creative Technologist focused on building digital solutions that drive business growth. This portfolio showcases my work across three core pillars: UI/UX Design, Visual Advertising, and AI Automation. Drawing from hands-on operational experience in the F&B and hospitality industries, I design digital products that go beyond aesthetics—delivering practical efficiency and driving measurable impact for real-world businesses."
     },
     resume: {
       title: 'Resume',
@@ -135,7 +135,7 @@ export const translations = {
     home: {
       hello: 'Halo,',
       im: "Saya Abbas",
-      bio: "Saya adalah siswa Bisnis Digital sekaligus seorang Creative Technologist yang berfokus pada desain produk digital, periklanan motion, dan otomatisasi alur kerja. Melalui situs ini, saya mendokumentasikan karya-karya saya dalam menjawab tantangan bisnis nyata—mulai dari merancang antarmuka pengguna yang intuitif, membangun narasi visual yang memikat, hingga mengintegrasikan sistem cerdas berbasis AI. Berbekal pengalaman praktis di industri perhotelan dan F&B, saya percaya bahwa solusi digital yang berdampak tinggi selalu membutuhkan keseimbangan sempurna antara estetika visual, storytelling yang strategis, dan sistem data yang efisien."
+      bio: "Saya adalah seorang Creative Technologist yang berfokus membangun solusi digital untuk pertumbuhan bisnis. Melalui portofolio ini, saya merangkum karya saya dalam tiga bidang yang meliputi UI/UX Design, Visual Advertising, dan AI Automation. Berbekal rekam jejak praktis di operasional F&B dan hospitality, saya merancang produk digital yang tidak sekadar estetis, tetapi juga efisien dan berdampak langsung pada skala bisnis nyata."
     },
     resume: {
       title: 'Resume',
