@@ -12,6 +12,21 @@ export default function Projects() {
 
   const dummyProjects = [
     {
+      id: 24,
+      title: 'ChatBot Admin Gudang - Inventory Automation',
+      category: 'Creative Technology',
+      thumbnail: '/assets/portfolio/warehouse-bot-cover.webp',
+      contentMedia: [
+        { type: 'image', url: '/assets/portfolio/warehouse-bot-1.webp' },
+        { type: 'image', url: '/assets/portfolio/warehouse-bot-2.webp' },
+        { type: 'image', url: '/assets/portfolio/warehouse-bot-3.webp' }
+      ],
+      description: {
+        en: "A Telegram-based chatbot system integrated with n8n and Google Sheets to automate warehouse inventory management. It resolves inconsistent manual tracking and delayed updates by allowing admins to record incoming/outgoing stock and request periodic reports via chat commands. This solution increases recording efficiency by 50%, reduces stock discrepancies by up to 70%, and cuts report generation time to seconds.",
+        id: "Sistem chatbot berbasis Telegram yang terintegrasi dengan n8n dan Google Sheets untuk mengotomatisasi manajemen inventaris gudang. Sistem ini mengatasi pencatatan manual yang tidak konsisten dan pembaruan yang tertunda dengan memungkinkan admin mencatat stok masuk/keluar serta meminta laporan berkala melalui perintah obrolan. Solusi ini meningkatkan efisiensi pencatatan sebesar 50%, mengurangi selisih data stok hingga 70%, dan memangkas waktu pembuatan laporan menjadi hitungan detik."
+      }
+    },
+    {
       id: 23,
       title: 'Auto Generate Invoice - Automation System',
       category: 'Creative Technology',
