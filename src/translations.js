@@ -8,8 +8,7 @@ export const translations = {
     },
     home: {
       hello: 'Hello,',
-      im: "I'm Abbas",
-      bio: "I am a Digital Business student with a strong focus on UI/UX design, content production, and business administration. Through this site, I document my projects—ranging from digital creative production to system automation and client database management. Drawing from my practical experience in the hospitality and F&B industries, I believe that a great digital project requires a balance of engaging visual appeal and highly organized data."
+      bio: "I am a Digital Business student and a Creative Technologist, specializing in digital product design, motion advertising, and workflow automation. Through this portfolio, I document my journey in solving real-world business challenges—from crafting intuitive user interfaces and compelling visual narratives to engineering efficient AI-driven systems. Drawing from my hands-on experience in the hospitality and F&B industries, I believe that an impactful digital solution requires a perfect harmony of engaging aesthetics, strategic storytelling, and highly organized, data-driven automation."
     },
     resume: {
       title: 'Resume',
@@ -44,7 +43,7 @@ export const translations = {
     },
     projects: {
       title: 'Projects',
-      desc: "A curated collection of digital projects divided into three main pillars: UI/UX & Web Development, Tech & Automation, and content production. This showcase highlights my approach to solving business challenges through modern visual design and efficient system integration."
+      desc: "A curated collection of my digital work, structured across three main pillars: Digital Product & UI Design, Motion & Advertising, and Creative Technology. This showcase highlights my holistic approach to solving business challenges—bridging the gap between stunning visual design, strategic commercial storytelling, and intelligent system automation."
     },
     contact: {
       title: "Let's Talk!",
@@ -75,7 +74,7 @@ export const translations = {
     home: {
       hello: 'Halo,',
       im: "Saya Abbas",
-      bio: "Aku adalah siswa Bisnis Digital yang berfokus pada desain UI/UX, produksi konten, dan administrasi bisnis. Melalui situs ini, aku mendokumentasikan berbagai karyaku—mulai dari produksi kreatif digital, otomatisasi sistem, hingga manajemen database klien. Berbekal pengalaman praktik di industri perhotelan dan F&B, aku percaya bahwa proyek digital yang sukses membutuhkan keseimbangan antara visual yang menarik dan data yang terstruktur rapi."
+      bio: "Saya adalah siswa Bisnis Digital sekaligus seorang Creative Technologist yang berfokus pada desain produk digital, periklanan motion, dan otomatisasi alur kerja. Melalui situs ini, saya mendokumentasikan karya-karya saya dalam menjawab tantangan bisnis nyata—mulai dari merancang antarmuka pengguna yang intuitif, membangun narasi visual yang memikat, hingga mengintegrasikan sistem cerdas berbasis AI. Berbekal pengalaman praktis di industri perhotelan dan F&B, saya percaya bahwa solusi digital yang berdampak tinggi selalu membutuhkan keseimbangan sempurna antara estetika visual, storytelling yang strategis, dan sistem data yang efisien."
     },
     resume: {
       title: 'Resume',
@@ -110,7 +109,7 @@ export const translations = {
     },
     projects: {
       title: 'Proyek',
-      desc: "Koleksi proyek digital yang terkurasi menjadi tiga pilar utama: UI/UX & Web Development, Teknologi & Otomatisasi, dan produksi konten. Portofolio ini menyoroti pendekatan saya dalam memecahkan tantangan bisnis melalui desain modern dan integrasi sistem yang efisien."
+      desc: "Koleksi kurasi dari karya-karya digital saya yang terbagi dalam tiga pilar utama: Digital Product & UI Design, Motion & Advertising, dan Creative Technology. Etalase ini menyoroti pendekatan komprehensif saya dalam memecahkan tantangan bisnis—menjembatani desain visual yang modern, storytelling komersial yang strategis, serta integrasi sistem otomasi yang cerdas."
     },
     contact: {
       title: "Mari Berdiskusi!",
