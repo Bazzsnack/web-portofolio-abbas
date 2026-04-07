@@ -83,7 +83,7 @@
   border-radius: 4px;
   padding: 40px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   text-align: left;
 }
 
@@ -114,7 +114,7 @@
 .cv-role {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #e56b6b; /* Accent color mimicking resume color */
+  color: #b58d3d; /* kuning puyeh elegan muting gold */
   margin: 4px 0 0 0;
 }
 
@@ -201,14 +201,14 @@
 .cv-item-period {
   font-size: 0.8rem;
   font-weight: 600;
-  color: #e56b6b;
+  color: #b58d3d; /* kuning puyeh */
   white-space: nowrap;
 }
 
 .cv-item-subtitle {
   font-size: 0.9rem;
-  font-weight: 600;
-  color: #666;
+  font-weight: 700;
+  color: #b58d3d; /* Instansi kuning puyeh */
   margin-bottom: 8px;
 }
 

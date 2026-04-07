@@ -14,8 +14,19 @@ export default function CVModal({ isOpen, onClose }) {
   const experiences = cv.experiences || [];
   const education = cv.education || [];
 
-  const handlePrint = () => {
-    window.print();
+  const handleDownload = (e) => {
+    e.preventDefault();
+    const element = document.getElementById('cv-printable-area');
+    
+    const opt = {
+      margin:       [10, 0, 10, 0], // Margin aman atas-bawah
+      filename:     'CV_Abbas_Creative_Technologist.pdf',
+      image:        { type: 'jpeg', quality: 0.98 },
+      html2canvas:  { scale: 2, useCORS: true },
+      jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(element).save();
   };
 
   return (
@@ -24,10 +35,10 @@ export default function CVModal({ isOpen, onClose }) {
         
         {/* Action Bar */}
         <div className="cv-action-bar">
-          <a className="cv-btn cv-btn-print" href="/CV_Abbas.pdf" download="CV_Abbas_Creative_Technologist.pdf">
+          <button className="cv-btn cv-btn-print" onClick={handleDownload}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="cv-icon"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
             {cv.downloadText || "Download PDF"}
-          </a>
+          </button>
           <button className="cv-btn cv-btn-close" onClick={onClose}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="cv-icon"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             {cv.closeText || "Close"}
