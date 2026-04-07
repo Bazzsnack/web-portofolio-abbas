@@ -1,14 +1,15 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
+import { translations } from '../translations';
 import profileImg from '../assets/asset_abbas/foto_profil.png';
 import './CVModal.css';
 
 export default function CVModal({ isOpen, onClose }) {
-  const { t } = useLanguage();
+  const { lang, t } = useLanguage();
 
   if (!isOpen) return null;
 
-  const cv = t('cv') || {};
+  const cv = translations[lang]?.cv || {};
   const skills = cv.skills || [];
   const experiences = cv.experiences || [];
   const education = cv.education || [];
