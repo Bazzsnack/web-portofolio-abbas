@@ -27,7 +27,7 @@ export default function Header() {
         <nav className={`header-nav ${isMenuOpen ? 'open' : ''}`}>
           <ul>
             <li><Link to="/" onClick={closeMenu}>{t('nav', 'home')}</Link></li>
-            {/* <li><Link to="/resume" onClick={closeMenu}>{t('nav', 'resume')}</Link></li> */}
+            <li><Link to="/resume" onClick={closeMenu}>{t('nav', 'resume')}</Link></li>
             <li><Link to="/projects" onClick={closeMenu}>{t('nav', 'projects')}</Link></li>
             <li><Link to="/contact" onClick={closeMenu}>{t('nav', 'contact')}</Link></li>
             <li className="lang-toggle-container">

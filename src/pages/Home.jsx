@@ -55,7 +55,7 @@ export default function Home() {
           */}
 
           <div className="navigation-buttons">
-            {/* <CircleButton to="/resume" label={t('nav', 'resume')} colorVar="--color-resume" delay="0s" /> */}
+            <CircleButton to="/resume" label={t('nav', 'resume')} colorVar="--color-resume" delay="0s" />
             <CircleButton to="/projects" label={t('nav', 'projects')} colorVar="--color-projects" delay="0.4s" />
             <CircleButton to="/contact" label={t('nav', 'contact')} colorVar="--color-contact" delay="0.8s" />
           </div>
